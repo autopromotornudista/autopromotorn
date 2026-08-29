@@ -1,6 +1,7 @@
 ---
 last_updated: 2026-08-29
 ---
+<!-- última actualización: primer harvest real (SRC-002 Joan Tubau, 2 ideas generadas) -->
 
 # SUBSCRIPTIONS — Fuentes recurrentes autorizadas
 
@@ -48,6 +49,29 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
   ideas_high_performance: 0
   yield_score: null
   notes: "Única fuente con WebFetch autorizado actualmente en settings.json"
+
+- id: SRC-002
+  name: Joan Tubau — Kapital
+  author: Joan Tubau
+  type: substack
+  url: https://joantubau.substack.com
+  frequency: irregular
+  priority: medium
+  active: true
+  last_processed: 2026-08-29
+  ideas_generated: 2
+  ideas_published: 0
+  ideas_high_performance: 0
+  yield_score: null
+  source_score_mvp: 6
+  score_breakdown: "relevancia 2/3 · originalidad 2/2 · trazabilidad 2/2"
+  notes: "Frameworks filosófico-financieros de alto valor para pilar Reflexiones. Vocabulario muy distintivo — requiere transformación profunda antes de usar. No toca construcción ni hipotecas directamente."
+  harvest_log:
+    - date: 2026-08-29
+      article: "Proyectos Pingüino"
+      url: https://joantubau.substack.com/p/proyectos-pinguino
+      ideas_saved: [IDEA-HAR-001, IDEA-HAR-002]
+      ideas_discarded: [IDEA-HAR-003 solapamiento IDEA-002, IDEA-HAR-004 framing dependiente fuente, IDEA-HAR-005 prioridad baja]
 ```
 
 ---
@@ -68,17 +92,17 @@ El score se calcula cuando la fuente tiene historial suficiente (mínimo 3 ciclo
 |-----------|--------|---------|
 | Relevancia temática | 0–3 | % de publicaciones que tocan hipoteca, construcción, inversión o familia |
 | Originalidad | 0–2 | Perspectiva y datos propios vs. reempaquetar a otros |
-| Fiabilidad | 0–2 | Fuente verificable, autor identificado, datos con fuente citada |
+| Calidad / trazabilidad | 0–2 | Autor identificado, fuente citada cuando hace afirmaciones de hecho, contenido trazable a su origen. No equivale a asumir que el contenido es factualmente correcto. |
 | Yield histórico | 0–3 | Solo disponible con historial real: `(ideas_high_performance / ideas_generated)` |
 
 **Fórmula MVP (fuente nueva, sin historial):**
 ```
-SOURCE SCORE = relevancia + originalidad + fiabilidad
+SOURCE SCORE = relevancia + originalidad + trazabilidad
 ```
 
 **Fórmula completa (fuente con historial ≥ 3 ciclos):**
 ```
-SOURCE SCORE = relevancia + originalidad + fiabilidad + yield_histórico
+SOURCE SCORE = relevancia + originalidad + trazabilidad + yield_histórico
 ```
 
 ---

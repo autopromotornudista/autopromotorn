@@ -25,6 +25,7 @@
 **Idea:** Tweet con situación real: "En [momento del proceso] tuve que decidir rápido o esperar. Esperé. Resultado: [cifra o mejor decisión]." Pregunta al final.
 **Potencial:** ALTO
 **Investigación requerida:** SÍ — identificar momento concreto real donde la liquidez permitió esperar
+**Fuentes relacionadas:** experiencia propia · SRC-002 (Joan Tubau — Kapital, "Proyectos Pingüino", 2026-08-29) → INSIGHT: "a mí lo que me salvó fue consolidar pronto un flujo de caja positivo; una vez cubrí costes, ya podía esperar sentado indefinidamente" — refuerza el eje narrativo de liquidez como fuente de poder de decisión
 
 ---
 

@@ -77,7 +77,7 @@ Claude leerá la transcripción junto con el briefing del proyecto, `editorial/H
 | **Dato clave del vídeo** | El detonante extraído de la fuente |
 | **Conexión con el caso propio** | Cómo enlaza con experiencia real o datos de `knowledge/` |
 | **Formato sugerido** | Tweet único, hilo 5-8, reflexión + pregunta |
-| **Tipo de contenido** | FACT / INSIGHT / FRAMEWORK (ver `sources/SUBSCRIPTIONS.md`) |
+| **Tipo de contenido** | FACT / INSIGHT / FRAMEWORK / IDEA / QUOTE / STORY / DERIVED_CLAIM |
 
 ---
 
@@ -109,7 +109,8 @@ url: [URL del vídeo]
 date_published: [fecha del vídeo]
 date_harvested: [fecha de hoy]
 type: youtube
-content_type_extracted: [FACT | INSIGHT | FRAMEWORK | IDEA | STORY]
+content_type_extracted: [FACT | INSIGHT | FRAMEWORK | IDEA | QUOTE | STORY | DERIVED_CLAIM]
+transformation_contains: [DERIVED_CLAIM | null]
 concept_original: [qué decía la fuente]
 transformation: [cómo se conecta con la experiencia propia]
 pillar: [pilar editorial]
@@ -118,7 +119,30 @@ status: idea
 needs_attribution: [true | false]
 needs_verification: [true | false]
 originality_check: pending
+verification_note: [opcional — qué parte necesita verificación y por qué]
 ---
+
+### Tipos de contenido — referencia
+
+| Tipo | Definición | Regla de uso |
+|------|-----------|-------------|
+| FACT | Dato verificable externo | Si es relevante para un post: `needs_verification: true` |
+| INSIGHT | Interpretación u opinión del autor de la fuente | Nunca tratar como FACT. Atribuir o transformar. |
+| FRAMEWORK | Estructura mental reutilizable | Candidato a `editorial/ANGLES.md`. Requiere aprobación humana. |
+| IDEA | Oportunidad editorial identificada por el Harvester | Va directamente a `content/ideas/` |
+| QUOTE | Frase textual relevante | Solo referencia interna. Nunca publicar sin atribución. |
+| STORY | Anécdota o narrativa de la fuente | Puede inspirar formato, nunca replicarse como experiencia propia. |
+| DERIVED_CLAIM | Conclusión numérica o factual derivada de combinar hechos aprobados | Siempre `needs_verification: true`. Aunque los inputs procedan de `knowledge/`. |
+
+### Regla de inferencia
+
+Que un dato esté en `knowledge/` no autoriza al Harvester a derivar consecuencias automáticamente.
+
+Si una transformación introduce una conclusión que no está documentada directamente:
+- Marcar `transformation_contains: DERIVED_CLAIM`
+- Marcar `needs_verification: true`
+- Añadir `verification_note` explicando qué debe calcularse o verificarse antes de publicar
+- No usar ese DERIVED_CLAIM como FACT en el borrador
 ```
 
 ---

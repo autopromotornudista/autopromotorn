@@ -111,3 +111,31 @@ Un mismo contenido puede producir dos formatos distintos:
 - Hilo sin imagen → más lectura, más replies
 
 No son el mismo ángulo aunque partan del mismo hecho. Son vehículos distintos para la misma experiencia.
+
+---
+
+## Lentes transversales
+
+Marcos de pensamiento de aplicación general que pueden usarse como punto de entrada para posts del pilar Reflexiones & Contexto. No son ángulos en sí mismos — son formas de pensar que generan ángulos al aplicarlas a una experiencia concreta propia.
+
+### Lo que pasa después de lo que pasa
+
+Para cualquier decisión relevante del proyecto, hacerse dos preguntas en lugar de una:
+
+1. ¿Qué pasa si hago esto? *(análisis de primer nivel)*
+2. ¿Qué pasa **después** de lo que pasa? *(análisis de segundo nivel)*
+
+La mayoría de los análisis se detienen en la primera pregunta. El contenido que diferencia a @autopromotorn está en la segunda.
+
+**Aplicaciones directas al proyecto:**
+
+| Decisión | Primer nivel | Segundo nivel |
+|---------|-------------|--------------|
+| No amortizar hipoteca | Tengo deuda → incomodidad | La deuda al 2,05% es la más barata que tendré; el capital invertido trabaja más |
+| Separar gremios | Más gestión → complejidad | 73.000€ de ahorro y control de calidad por partida |
+| Construir en lugar de comprar | 5 años, ~410K, burocracia → parece una locura | Diseñar alrededor de cómo queremos vivir; cada decisión arquitectónica es nuestra |
+| DCA durante la obra | Menos liquidez disponible | La obra tiene su financiación separada; los dips son oportunidades de compra |
+
+**Regla de uso:** el post parte siempre de la experiencia propia concreta, no del marco conceptual. El marco estructura el análisis internamente — no aparece necesariamente en el texto publicado.
+
+*Concepto con tradición intelectual amplia (Munger, entre otros). Detectado como lente útil para AutopromotorN en harvest de Joan Tubau — Kapital, 2026-08-29 (SRC-002).*
