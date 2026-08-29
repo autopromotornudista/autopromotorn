@@ -1,0 +1,179 @@
+# ============================================================
+# AUTOPROMOTORN — .gitignore
+# ============================================================
+#
+# Principio: Git = texto, conocimiento aprobado, código, config.
+#            Git ≠ documentos privados, binarios, media.
+#
+# Arquitectura de tres niveles:
+#   PRIVATE SOURCES  → solo en disco local (excluidos aquí)
+#   KNOWLEDGE APPROVED → en Git (knowledge/)
+#   PUBLIC CONTENT   → en Git (content/published/)
+#
+# Las carpetas privadas se preservan en Git como estructura vacía
+# mediante .gitkeep para que Claude Code, ChatGPT y OpenClaw
+# sepan que existen localmente aunque no tengan acceso a su contenido.
+# ============================================================
+
+
+# ── SECRETOS Y CREDENCIALES (preventivo) ──────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+token.json
+tokens.json
+cookies.txt
+*.cookies
+auth.json
+*_credentials.json
+*_token.json
+*_secret.*
+*_private.*
+service_account*.json
+
+
+# ── DOCS: CARPETAS PRIVADAS ───────────────────────────────
+# Se excluye el contenido pero se conserva la carpeta en Git
+# mediante .gitkeep (ver negaciones !dir/.gitkeep abajo).
+# Estos documentos existen solo en disco local.
+
+docs/hipoteca/**
+!docs/hipoteca/.gitkeep
+
+docs/tasacion/**
+!docs/tasacion/.gitkeep
+
+docs/presupuestos-construccion/**
+!docs/presupuestos-construccion/.gitkeep
+
+docs/finanzas/**
+!docs/finanzas/.gitkeep
+
+docs/Proxecto Vivenda O Abelar/**
+!docs/Proxecto Vivenda O Abelar/.gitkeep
+
+docs/fotos-reales/**
+!docs/fotos-reales/.gitkeep
+
+docs/renders/**
+!docs/renders/.gitkeep
+
+docs/contexto-ia/**
+!docs/contexto-ia/.gitkeep
+
+
+# ── DOCS: BINARIOS SUELTOS EN /docs/ ─────────────────────
+docs/*.pdf
+docs/*.PDF
+
+
+# ── IMÁGENES Y BINARIOS EDITORIALES ──────────────────────
+# Las imágenes tendrán su propio sistema de media en el futuro.
+# Aplicado en docs/ para no bloquear accidentalmente
+# imágenes que pudieran añadirse a otras carpetas con intención.
+docs/*.png
+docs/*.jpg
+docs/*.jpeg
+docs/*.gif
+docs/*.webp
+docs/*.svg
+
+
+# ── AUDIO Y VÍDEO (global) ────────────────────────────────
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.m4a
+*.wav
+*.ogg
+*.flac
+*.aac
+*.m4v
+*.webm
+
+
+# ── DOCUMENTOS DE OFFICE (global) ────────────────────────
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+*.odt
+*.ods
+
+
+# ── ARCHIVOS COMPRIMIDOS Y BACKUPS ────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.gz
+*.backup
+*.bak
+*.old
+*.orig
+
+
+# ── BASES DE DATOS LOCALES ────────────────────────────────
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+
+# ── EXPORTS Y DUMPS GRANDES ───────────────────────────────
+*.dump
+*.export
+exports/
+dumps/
+
+
+# ── PYTHON ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ── SISTEMA OPERATIVO ─────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+
+# ── EDITORES ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.log

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__buffer__get_account",
+      "mcp__buffer__list_channels",
+      "mcp__buffer__list_posts",
+      "mcp__buffer__get_post",
+      "mcp__buffer__create_post",
+      "mcp__buffer__edit_post",
+      "WebFetch(domain:inversoracon30.substack.com)",
+      "Bash(pip show *)",
+      "Bash(yt-dlp --version)",
+      "Bash(claude mcp *)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)"
+    ]
+  }
+}
