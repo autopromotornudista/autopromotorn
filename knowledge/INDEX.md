@@ -43,16 +43,18 @@ PUBLIC CONTENT      → content/published/ y canales sociales
 
 | Archivo | Qué contiene | Cuándo consultarlo |
 |---------|-------------|-------------------|
+| `VALIDATED_CONTEXT_2026-08-30.md` | **Contexto completo validado por el protagonista el 30/08/2026. Fuente de verdad más reciente. Prevalece sobre documentos anteriores.** | SIEMPRE — leer primero |
 | `PROJECT.md` | Identidad, propósito, posicionamiento, filosofía | Antes de cualquier tarea editorial |
 | `TIMELINE.md` | Cronología oficial confirmada del proyecto | Cuando el contenido haga referencia a fechas o hitos |
 | `HOUSE.md` | Características de la vivienda, decisiones de diseño | Posts sobre proceso real, decisiones constructivas |
-| `FINANCES.md` | Estructura económica aprobada, cifras de alto nivel | Posts sobre costes, presupuesto, decisiones financieras |
+| `FINANCES.md` | Estructura económica aprobada, cifras y partidas detalladas | Posts sobre costes, presupuesto, decisiones financieras |
 | `MORTGAGE.md` | Condiciones hipotecarias, proceso, aprendizajes | Posts sobre hipoteca, negociación, bancos |
 | `INVESTMENTS.md` | Estrategia de inversión, relación hipoteca/cartera | Posts sobre inversión, amortización, patrimonio |
 | `AUDIENCE.md` | Perfiles, miedos, preguntas, nivel de conocimiento | Para orientar el enfoque y el ángulo del contenido |
 | `STRATEGY.md` | Canales, función de cada uno, monetización | Decisiones de distribución y canal |
 | `CONTENT_PILLARS.md` | Pilares temáticos y operativos, objetivos, límites | Planificación de contenido semanal |
 | `EDITORIAL_RULES.md` | Reglas operativas, aprobación, deduplicación | Antes de publicar o programar cualquier contenido |
+| `CADENCIA.md` | Cadencia, volumen semanal, Value Gate, horarios | Planificación y calendarización |
 
 ---
 

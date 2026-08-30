@@ -19,7 +19,7 @@ Los seguidores en plataformas de terceros son audiencia prestada. La audiencia p
 
 **Estado:** activo, canal primario de distribución.
 
-**Cadencia:** 4 publicaciones/semana como referencia (Lunes a Jueves). Ver CONTENT_PILLARS.md para distribución por pilar.
+**Cadencia:** mínimo 7 publicaciones propias / semana, 7 días. Rango habitual: 7–9. Ver `CADENCIA.md` para reglas completas de volumen, Value Gate y domingo como pieza principal.
 
 **Horario:** en experimentación. No existe todavía una franja canónica definitiva.
 

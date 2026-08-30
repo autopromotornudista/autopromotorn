@@ -41,13 +41,60 @@ Los desgloses detallados por partida se incorporarán únicamente cuando hayan s
 
 ---
 
+## Partidas confirmadas (agosto 2026)
+
+### Estimado vs. contratado por capítulo
+
+| Partida | Estimación/proyecto | Real/Contratado | Estado | Δ |
+|---------|---------------------|-----------------|--------|---|
+| Cubierta | 20.703 € + IVA | 37.425 € + IVA | CONTRACTED | +16.722 € (+80,8%) |
+| Carpintería exterior | ~28.569 € + IVA (comparable) | 26.448 € + IVA | CONTRACTED (15% PAID) | −2.121 € (−7,4%) |
+| Fontanería (instalación + aerotermo) | — | 6.000 € + IVA | CONTRACTED | — |
+| Electricidad (sin luminarias) | — | 15.000 € + IVA | CONTRACTED | — |
+| VMC doble flujo (Siber) | ~5.200 € | ~5.800 € | CONTRACTED | +600 € (+11,5%) |
+| Cocina + electrodomésticos | ~27.000 € + IVA | ~17.000 € + IVA | BUDGETED | −10.000 € (−37%) |
+| Excavación | 14.091,21 € | 3.960 € | CONTRACTED | −10.131 € (−72%) |
+
+> Distinguir siempre: ESTIMATED / CONTRACTED / BUDGETED / PAID. No mezclar estados.
+
+### Partidas con datos parciales
+
+| Partida | Situación | Estado |
+|---------|-----------|--------|
+| Puertas trastero + celosías + mamparas | ~3.630 € pendiente de presupuestar | OPEN |
+| Movimiento de tierras | ~5.793 € en proyecto; plan de reutilizar tierra en parcela | PLANNED/EXPECTED |
+| Baños (revestimientos, sanitarios, muebles, grifería) | Sin decidir | OPEN / TBD |
+| Iluminación (exterior y puntos interiores) | Sin cerrar | OPEN / TBD |
+| Felpudo | Oferta constructor ~480 €; compra directa ~90 € | — |
+
+### Licencias e impuestos
+
+- **PEM para AJD:** 156.000 € — base fiscal para AJD, ICIO y tasas de licencia
+- **PEM presupuesto técnico:** 315.224,48 € (+ IVA 31.522,45 € = 346.746,93 € total técnico)
+- **AJD:** 2.340 € = 1,5% × 156.000 € (confirmado; distinto del PEM del proyecto)
+- **Provisión hipoteca** (AJD + notaría + registro + gestoría): 4.241,62 € — PROVISIONED. Sin liquidación final todavía.
+
+### Reducción de superficie
+
+Ajustamos el proyecto pasando de 4 a 3 dormitorios y reduciendo la superficie de todas las estancias (~10 m² menos). Ahorro estimado: **~30.000 €** sobre el presupuesto inicial (ESTIMATED/DERIVED).
+
+---
+
 ## Decisiones financieras relevantes
 
 ### Separación de gremios
 
-Separar determinados gremios del contrato del constructor principal redujo el presupuesto de construcción en aproximadamente **73.000 €**, sin negociar precios ni reducir calidades. Solo reorganizando quién hace cada trabajo.
+Gremios separados del contrato del constructor y gestionados directamente: carpintería exterior, electricidad, fontanería y ventilación.
 
-Este dato ha sido publicado. Es un aprendizaje clave para otros autopromotores.
+**Motivo principal:** control de calidad y elección de proveedores propios, no únicamente el ahorro. Los industriales propuestos por el constructor para electricidad y fontanería no generaron confianza suficiente.
+
+**Ahorro estimado: ~10.000 €** (ESTIMATED). No presentar como ahorro exacto ni usar cifras anteriores de 15.000 €.
+
+> Nota: la diferencia total entre presupuesto del arquitecto y contrato firmado con el constructor fue de ~73.000 €, pero corresponde a distintos alcances y formas de medir — no es el mismo concepto que el ahorro por separar gremios.
+
+### Calefacción: decisión de no instalar suelo radiante
+
+Eliminación de suelo radiante y aerotermia de calefacción. Ahorro estimado: **~15.000 €** (ESTIMATED/DERIVED). ACS mediante aerotermo. Calefacción: estufa de pellets + VMC.
 
 ### Venta de la vivienda anterior como financiación
 

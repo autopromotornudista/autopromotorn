@@ -92,13 +92,29 @@ La estructura del calendario editorial semanal vigente.
 
 ---
 
-## Días actuales y timing
+## Cadencia y timing
 
-**Calendario vigente:** Lunes a Jueves, 4 posts/semana.
+**Cadencia:** mínimo 7 publicaciones propias / semana, 7 días. Ver `CADENCIA.md` para reglas completas.
 
-> ⚠️ **Hipótesis operativas, no reglas canónicas.** Los días de publicación, la frecuencia semanal (4 posts) y la distribución de pilares por día son hipótesis de trabajo sujetas a revisión con analytics. No representan una estructura permanente ni deben tratarse como obligaciones fijas. Analytics decidirá progresivamente qué funciona mejor para esta audiencia.
+**Domingo:** pieza de mayor valor de la semana (ver `CADENCIA.md` sección 4).
 
-Ver `STRATEGY.md` para datos históricos de engagement por día y hora.
+### Distribución de pilares por día — orientativa
+
+Los pilares no tienen días fijos obligatorios. La siguiente distribución es un punto de partida, no una regla:
+
+| Pilar | Día orientativo | Lógica |
+|-------|----------------|--------|
+| 💶 Números & Finanzas | Miércoles | Punto central de la semana, audiencia activa |
+| 🏗️ Proceso Real | Jueves | Vinculado a novedades de obra de esa semana |
+| 💡 Lecciones & Tips | Martes | Hilos largos funcionan mejor entre semana |
+| 🧠 Reflexiones & Contexto | Lunes | Arranque de semana, debate |
+| 👨‍👧‍👦 Familia & Vida Real | Flexible | 1-2 veces/semana según disponibilidad |
+
+Fin de semana (sábado y domingo): cualquier pilar. Domingo = mejor pieza disponible.
+
+> La asignación día/pilar es una hipótesis de trabajo, no una obligación. El Value Gate y la calidad de la pieza prevalecen sobre el encaje de pilar en día concreto. Analytics decidirá qué funciona mejor.
+
+Ver `STRATEGY.md` para datos de engagement por día y hora.
 
 ---
 

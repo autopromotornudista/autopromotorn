@@ -1,11 +1,23 @@
+---
+draft_date: 2026-08-30
+pillar: vivienda_economia
+risk_level: low
+value_category: DECISION
+value_promise: "Reducir m² antes de construir puede ahorrar 30.000€ sin sacrificar calidad de vida"
+facts_used:
+  - Reducción de ~10m² ajustando todas las estancias
+  - Reducción de 4 a 3 dormitorios
+derived_claims:
+  - "Ahorro de ~30.000€ sobre el presupuesto estimado — ESTIMATED/DERIVED, no cifra contractual exacta"
+needs_verification: []
+critic_status: pending
+---
+
 # BORRADOR — Tweet: Los metros que no construimos
 
-**Estado:** pendiente de confirmar datos + aprobar
-**Pilar:** 🏗️ Proceso Real / Pilar 8 — Vivienda, libertad y estilo de vida
-**Formato:** Tweet único
-**Modo:** AUTO
-**Slot sugerido:** Lunes · semana libre · 9:00h
-**Investigación requerida:** Confirmar que los elementos específicos son reales (habitaciones más pequeñas, ~10.000€)
+**Pilar:** Vivienda / Economía  
+**Formato:** Tweet único  
+**Slot sugerido:** semana 1 septiembre
 
 ---
 
@@ -15,19 +27,14 @@ El que cobra el constructor.
 
 Y todo lo que dejamos de hacer con ese dinero.
 
-Hicimos las habitaciones más pequeñas de lo que teníamos en el proyecto.
+Pasamos de 4 a 3 dormitorios y ajustamos la superficie de todas las estancias.
 
-Ahorro: ~10.000€.
+~10m² menos en el proyecto. ~30.000€ de ahorro.
 
-A cualquier habitación le encuentras utilidad cuando ya está dibujada. La pregunta era otra: ¿la usaríamos lo suficiente para justificar construirla, amueblarla y mantenerla décadas?
+A cualquier habitación le encuentras utilidad cuando ya está dibujada.
+
+La pregunta era otra: ¿la usaríamos lo suficiente para justificar construirla, amueblarla y mantenerla décadas?
 
 La respuesta fue no.
 
 Una casa también mejora cuando sabes dónde parar.
-
----
-
-**Notas de redacción:**
-- Concepto base: "dos precios" (coste de construcción + coste de oportunidad)
-- Cierre de otra versión evaluada: "Una casa también mejora cuando sabes dónde parar" — validado como buen cierre
-- ⚠️ Confirmar antes de publicar: ¿la cifra ~10.000€ es correcta? ¿hay algún elemento más específico que añadir (tipo de habitación)?
