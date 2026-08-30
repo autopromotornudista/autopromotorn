@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 source_type: human_approved
 ---
 
@@ -15,8 +15,10 @@ Fuente: curado desde `contenido/replies.md` + datos de algoritmo de CLAUDE.md.
 
 ## Por qué los replies son la palanca más importante
 
-| Señal en el algoritmo de X | Peso relativo |
-|---------------------------|--------------|
+> **Nota sobre los ratios de la tabla siguiente:** Los pesos relativos (~150×, ~27×, etc.) son heurísticas de referencia. Proceden de análisis internos del algoritmo de X recogidos en agosto 2026, no de la API pública ni de documentación oficial de X Corp. No representan pesos canónicos verificados externamente ni deben citarse como datos oficiales. La estrategia de replies no depende de estos números exactos: se apoya en el principio general de que el engagement activo (conversación real) pesa significativamente más que los likes pasivos.
+
+| Señal en el algoritmo de X | Peso relativo (heurística, no oficial) |
+|---------------------------|----------------------------------------|
 | Reply + el autor responde | ~150× un like |
 | Reply normal | ~27× un like |
 | Bookmark | ~10-20× |

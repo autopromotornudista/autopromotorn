@@ -72,6 +72,33 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
       url: https://joantubau.substack.com/p/proyectos-pinguino
       ideas_saved: [IDEA-HAR-001, IDEA-HAR-002]
       ideas_discarded: [IDEA-HAR-003 solapamiento IDEA-002, IDEA-HAR-004 framing dependiente fuente, IDEA-HAR-005 prioridad baja]
+
+- id: SRC-003
+  name: Canal YouTube hipotecas y mercado inmobiliario España
+  author: pendiente de confirmar (presentadora "Monse")
+  channel_name: pendiente de confirmar
+  channel_url: pendiente de confirmar
+  metadata_status: pending
+  type: youtube
+  url: https://www.youtube.com/watch?v=tqjs5D5-9DQ
+  frequency: irregular
+  priority: medium
+  active: true
+  last_processed: 2026-08-29
+  ideas_generated: 3
+  ideas_published: 0
+  ideas_high_performance: 0
+  yield_score: null
+  source_score_mvp: 4
+  score_breakdown: "relevancia 2/3 · originalidad 1/2 · trazabilidad 1/2"
+  notes: "Broker hipotecaria española. Datos de mercado en tiempo real: Euribor, condiciones de financiación, evolución precios. Canal frecuente de seguimiento — confirmar nombre del canal y URL del canal para completar el registro. FACTs externos siempre con needs_verification: true."
+  harvest_log:
+    - date: 2026-08-29
+      video: "Análisis mercado hipotecario agosto 2026"
+      url: https://www.youtube.com/watch?v=tqjs5D5-9DQ
+      transcript: docs/fuentes/2026-08-29-tqjs5D5-9DQ.md
+      ideas_saved: [IDEA-VID-001, IDEA-VID-002, IDEA-VID-003]
+      ideas_discarded: [datos Barcelona/Madrid/Alicante sin conexión propia, predicciones septiembre sin datos, ITP/IVA irrelevante para autopromotor ya financiado]
 ```
 
 ---

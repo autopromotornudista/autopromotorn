@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 source_type: human_approved
 ---
 
@@ -43,6 +43,7 @@ content/     → ideas, drafts, ready, scheduled, publicados
 
 | Archivo | Función | Cuándo consultarlo |
 |---------|---------|-------------------|
+| `VOICE.md` | Tono, ritmo, ejemplos buenos y malos, reglas de hashtag | Antes de redactar cualquier post — es el primer filtro de calidad |
 | `HOOKS.md` | Fórmulas de apertura y estructuras de hook validadas | Antes de escribir la primera línea de cualquier post |
 | `FORMATS.md` | Los 4 formatos narrativos + ejemplos por pilar | Al elegir cómo contar una experiencia o dato |
 | `ANGLES.md` | Cómo generar ángulos distintos desde una misma experiencia o fuente | Al transformar un dato real o fuente externa en ideas |
