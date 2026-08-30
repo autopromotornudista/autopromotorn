@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 source_type: human_approved
 ---
 
@@ -114,3 +114,21 @@ No actualizar `knowledge/` de forma silenciosa entre commits.
 El proceso siempre es: SOURCE → extracción → validación → aprobación humana → KNOWLEDGE.
 
 Knowledge nunca debe utilizarse para reconstruir información privada que se ha decidido deliberadamente excluir.
+
+---
+
+## Información volátil sobre el sistema de X
+
+La siguiente información debe tratarse siempre como **hipótesis**, no como knowledge estable:
+
+- comportamiento del algoritmo de ranking
+- timing óptimo de publicación
+- formatos que favorece o penaliza el algoritmo
+- impacto de incluir enlaces en posts
+- volumen óptimo de replies diarios
+- horarios de mayor alcance
+- tamaño ideal de cuentas objetivo para engagement
+
+**Por qué:** los sistemas de ranking de X (actualmente Phoenix) cambian sin previo aviso y sin publicación de documentación oficial. Los coeficientes que circulan públicamente pertenecen a versiones históricas del algoritmo y no pueden asumirse como vigentes.
+
+**Única fuente de verdad local:** los experimentos propios de @AutopromotorN documentados en `metrics/EXPERIMENTS.md`. Solo los resultados experimentales con fecha, muestra, métrica y periodo definidos pueden producir conclusiones locales sobre el comportamiento de esta cuenta.

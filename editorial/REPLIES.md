@@ -9,24 +9,19 @@ source_type: human_approved
 
 Acción diaria prioritaria: 70% del tiempo disponible en X. Objetivo: que cuentas de 2.000–10.000 seguidores respondan.
 
-Fuente: curado desde `contenido/replies.md` + datos de algoritmo de CLAUDE.md.
-
 ---
 
-## Por qué los replies son la palanca más importante
+## Por qué los replies son relevantes
 
-> **Nota sobre los ratios de la tabla siguiente:** Los pesos relativos (~150×, ~27×, etc.) son heurísticas de referencia. Proceden de análisis internos del algoritmo de X recogidos en agosto 2026, no de la API pública ni de documentación oficial de X Corp. No representan pesos canónicos verificados externamente ni deben citarse como datos oficiales. La estrategia de replies no depende de estos números exactos: se apoya en el principio general de que el engagement activo (conversación real) pesa significativamente más que los likes pasivos.
+Históricamente han circulado equivalencias numéricas entre acciones de X (ratios como "un reply vale N likes"). No las utilizamos. Los coeficientes publicados del sistema de ranking de X no equivalen a conteos de likes reales, corresponden a versiones anteriores del algoritmo y pueden cambiar sin previo aviso.
 
-| Señal en el algoritmo de X | Peso relativo (heurística, no oficial) |
-|---------------------------|----------------------------------------|
-| Reply + el autor responde | ~150× un like |
-| Reply normal | ~27× un like |
-| Bookmark | ~10-20× |
-| Repost | ~2-20× |
-| Like | 1× (baseline) |
-| "Not interested" / mute | −74× a −369× |
+**Hipótesis operativa de @AutopromotorN:**
+La conversación de calidad puede ser una palanca de descubrimiento superior al engagement pasivo para una cuenta pequeña. Lo validaremos con datos propios de @AutopromotorN.
 
-Un reply de calidad en los primeros 15 minutos en una cuenta grande hace más por el alcance que 10 posts propios.
+> Los coeficientes públicos del ranking de X no deben interpretarse como equivalencias entre acciones reales y pueden cambiar. La estrategia de replies se valida mediante experimentos propios.
+
+Ver contexto técnico actualizado: `sources/x/2026-08-x-ranking-research.md`
+Ver plan de validación: `metrics/EXPERIMENTS.md` (EXP-001)
 
 ---
 
