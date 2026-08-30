@@ -40,12 +40,13 @@ No es necesario generar todos los textos completos salvo que se solicite.
 
 Guardar calendario en `content/scheduled/`.
 
-## Publicación con Buffer MCP
+## Programar contenido
 
-Si el usuario solicita programar:
-- Herramienta: Buffer MCP (`mcp__buffer__*`)
-- Solo programar posts AUTO y solo en sesión de sábado o domingo.
-- Nunca programar durante la semana.
-- Prioridad: novedades de obra → actualidad del nicho → borradores atemporales.
-- Mantener siempre mínimo 5 posts programados en Buffer.
-- Llamar primero `get_account` y `list_channels` para obtener los IDs necesarios.
+Este comando NO llama a Buffer. Solo planifica y genera borradores.
+
+Para programar el contenido en Buffer:
+1. Ejecutar `/review [draft-id]` por cada borrador → necesita PASS + value HIGH
+2. Ejecutar `/approve [draft-id]` → gate humano obligatorio
+3. Ejecutar `/schedule [ready-id] [fecha] [hora]` → único punto autorizado para Buffer
+
+Solo `/schedule` puede crear posts en Buffer.
