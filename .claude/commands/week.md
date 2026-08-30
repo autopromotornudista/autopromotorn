@@ -2,6 +2,9 @@
 
 Prepara el calendario editorial de los próximos 7 días.
 
+Referencia de cadencia: `knowledge/CADENCIA.md`.
+Objetivo: 7–9 publicaciones HIGH VALUE / semana. Domingo = pieza principal de la semana.
+
 Proceso:
 
 1. Revisar publicaciones de los últimos 30 días en:

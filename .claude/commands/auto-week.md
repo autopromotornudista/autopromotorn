@@ -32,7 +32,15 @@ Proceso:
    - temas repetidos a evitar;
    - huecos editoriales por pilar.
 
-4. Crear calendario de 7 días siguiendo los pilares operativos de `knowledge/CONTENT_PILLARS.md`.
+4. Crear calendario de 7 días siguiendo `knowledge/CONTENT_PILLARS.md` y las reglas de cadencia de `knowledge/CADENCIA.md`.
+
+   Reglas de cadencia obligatorias:
+
+   - Objetivo mínimo: 7 publicaciones HIGH VALUE / semana. Rango habitual: 7–9. Máximo MVP: 10–11.
+   - **Domingo = pieza principal de la semana.** Elegir el borrador con mayor combinación de value_to_audience, originalidad, skin_in_the_game y potencial de conversación. No asignar el domingo a una pieza secundaria si existe una pieza claramente superior.
+   - **Segunda publicación del día:** permitida solo si ambas tienen value_level HIGH, aportan valor diferente, content_jobs distintos o complementarios, no compiten entre sí, y existe separación horaria suficiente. No desequilibrar el calendario semanal.
+   - No convertir ideas simples en hilos para aumentar volumen.
+   - Si ocurre un acontecimiento real HIGH VALUE (obra, imprevisto, coste real): puede sustituir o mover una pieza programada.
 
 4.5. **Value Gate por slot** — Antes de asignar una pieza a un slot, verificar que tiene VALUE PROMISE formulable y categoría de valor clara.
 

@@ -37,13 +37,37 @@ Proceso:
    - potencial de conversación.
 
 Si ningún candidato tiene value_promise formulable:
-→ Devolver: NO HAY PIEZA DE VALOR SUFICIENTE PARA HOY
-→ No generar contenido.
-→ No generar relleno de calendario.
+
+```
+NO HAY PIEZA HIGH VALUE DISPONIBLE
+```
+
+No generar contenido. No generar relleno de calendario.
+
+Proponer en su lugar:
+- nueva experiencia que documentar;
+- información que falta en knowledge/;
+- otro ángulo sobre una idea existente;
+- reutilización inteligente de idea no explotada;
+- oportunidad de actualidad;
+- pregunta que pueda generar contenido de calidad.
 
 6. Elegir el mejor candidato.
 
-7. Generar internamente versiones A/B/C.
+6.5. **Evaluación de segunda publicación** — Si existe un segundo candidato que también pasa el Value Gate, evaluar si cumple las 8 condiciones de `knowledge/CADENCIA.md` §2:
+- value_level: HIGH;
+- valor diferente al primero;
+- ángulo no repetido;
+- content_job distinto o complementario;
+- no compite con la pieza principal;
+- separación horaria suficiente;
+- el día no está ya saturado;
+- el calendario semanal no queda desequilibrado.
+
+Si cumple: proponer también como segunda opción del día, indicando separación horaria recomendada.
+Si no cumple: no proponer segunda publicación.
+
+7. Generar internamente versiones A/B/C para la pieza principal.
 
 8. Guardar solo la mejor versión en `content/drafts/draft-today-YYYY-MM-DD.md`
    con frontmatter:
@@ -64,5 +88,6 @@ Mostrar al usuario:
 - Pilar y marco editorial usado
 - Motivo de selección sobre los otros candidatos
 - risk_level y qué lo determina
+- Segunda publicación propuesta (si aplica) con separación horaria
 - Nota visual (imagen recomendada si aplica)
 - Siguiente paso: /review draft-today-YYYY-MM-DD

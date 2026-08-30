@@ -104,15 +104,16 @@ Si hay conflicto, mostrar aviso pero respetar si el humano insiste.
 
 Determinar el slot óptimo por orden de prioridad:
 
-1. Día editorial del pilar (de CONTENT_PILLARS.md)
-2. Slot libre ese día (no hay post programado en Buffer)
-3. Sin repetición de pilar/ángulo en días adyacentes
-4. Audiencia: sin saturar el mismo perfil en días consecutivos
-5. content_job: usar como criterio secundario de franja horaria
+1. **Domingo:** si la pieza tiene la mayor combinación de value_to_audience + originalidad + potencial de conversación disponible en la semana, proponer domingo como slot preferente. Si ya existe una pieza claramente superior programada ese domingo → no asignar aquí.
+2. Día editorial del pilar (de CONTENT_PILLARS.md)
+3. Slot libre ese día (no hay post programado en Buffer)
+4. Sin repetición de pilar/ángulo en días adyacentes
+5. Audiencia: sin saturar el mismo perfil en días consecutivos
+6. content_job: usar como criterio secundario de franja horaria
    - `reach` → franja con mayor oportunidad de descubrimiento
    - `authority` / `decision` → momentos de mayor concentración
    - `retention` → consistencia semanal sobre hora exacta
-6. Franja horaria: usar datos de STRATEGY.md y EXPERIMENTS.md
+7. Franja horaria: usar datos de STRATEGY.md y EXPERIMENTS.md
    - Si hay experimento activo que incluya horarios: aplicarlo
    - Si no: 18:00–20:00 CET como hipótesis operativa (STRATEGY.md)
    - Si no hay evidencia suficiente para elegir: mostrar fallback (ver Paso 4b)

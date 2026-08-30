@@ -21,6 +21,8 @@ source_type: human_approved
 
 6. **Calidad y valor sobre cantidad.** No existe obligación de publicar por publicar. Si una pieza no aporta valor claro a una audiencia concreta, no se publica. Preferimos publicar menos y aportar más. La cadencia es consecuencia de tener buenas piezas, no una meta en sí misma. Un calendario vacío es mejor que un post mediocre. No existe obligación de mantener frecuencia si el contenido disponible no alcanza el nivel requerido.
 
+7. **El domingo es la pieza principal de la semana.** El domingo se reserva para la pieza de mayor value_to_audience, originalidad y potencial de conversación disponible. No asignar el domingo a una pieza secundaria si existe una pieza claramente superior. Ver `knowledge/CADENCIA.md` para el sistema completo de cadencia.
+
 ---
 
 ## Deduplicación (protocolo obligatorio)
