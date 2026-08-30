@@ -1,17 +1,21 @@
 # /auto-week
 
-Genera automáticamente la próxima semana completa de contenido para @AutopromotorN.
+Genera el plan editorial de la próxima semana completa para @AutopromotorN.
 
-Objetivo:
-producir una semana lista para usar con mínima intervención humana.
+⚠️ REGLA CRÍTICA: Este comando genera borradores y un calendario de planificación.
+NO programa nada en Buffer. NO mueve archivos a content/ready/.
+El pipeline obligatorio es siempre: /review → /approve → /schedule.
+
+---
 
 Proceso:
 
 1. Revisar:
    - `CLAUDE.md`
-   - `knowledge/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md`
-   - `knowledge/autopromotorN_8_pilares_32_tweets.md` (versión canónica — ignorar `contenido/biblioteca-8-pilares-32-tweets.md`)
-   - `knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado, no repetir)
+   - `knowledge/` (todos los archivos)
+   - `autopromotorn_claude_content_os/knowledge/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md`
+   - `autopromotorn_claude_content_os/knowledge/autopromotorN_8_pilares_32_tweets.md`
+   - `autopromotorn_claude_content_os/knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado, no repetir)
    - `content/published/`
    - `contenido/tweets-publicados.md`
    - `content/ideas/`
@@ -24,11 +28,20 @@ Proceso:
 
 3. Detectar:
    - marcos infrautilizados;
-   - experiencias nuevas;
-   - temas repetidos;
-   - huecos editoriales.
+   - experiencias nuevas sin explotar;
+   - temas repetidos a evitar;
+   - huecos editoriales por pilar.
 
-4. Crear calendario de 7 días.
+4. Crear calendario de 7 días siguiendo los pilares operativos de `knowledge/CONTENT_PILLARS.md`.
+
+4.5. **Value Gate por slot** — Antes de asignar una pieza a un slot, verificar que tiene VALUE PROMISE formulable y categoría de valor clara.
+
+Si para un slot no hay idea con valor HIGH claro:
+→ Dejar el slot vacío: `[slot vacío — no hay pieza de valor suficiente]`
+→ No generar relleno.
+→ No bajar el umbral de calidad para completar el calendario.
+
+Un calendario con huecos es correcto. Un calendario lleno de piezas mediocres no lo es.
 
 5. Generar el texto final de cada publicación.
 
@@ -36,73 +49,72 @@ Proceso:
    - A directa;
    - B personal;
    - C provocadora.
+   Elegir solo la mejor.
 
-7. Elegir solo la mejor.
-
-8. Aplicar filtro final:
+7. Aplicar filtro final:
+   - value_promise formulable (si no → excluir la pieza del calendario);
+   - value_category identificable;
    - experiencia real;
-   - cifra si existe;
+   - cifra si existe en knowledge/;
    - tensión;
-   - voz humana;
-   - no repetición;
-   - hook;
+   - voz humana (editorial/VOICE.md);
+   - no repetición verificada;
+   - hook (editorial/HOOKS.md);
    - brevedad;
-   - coherencia.
+   - coherencia editorial.
 
-9. Clasificar:
+8. Clasificar cada pieza con risk_level:
 
-AUTO:
-- obra;
-- familia;
-- evergreen;
-- reflexión sin datos externos.
+   risk_level: low
+   → obra, familia, evergreen, reflexión sin datos externos ni derived claims.
 
-REVIEW:
-- hilo;
-- inversión;
-- hipoteca;
-- datos actuales;
-- estadística;
-- tema polémico.
+   risk_level: review
+   → hilo, inversión, hipoteca, datos actuales, estadística, tema polémico,
+     cualquier dato que no esté verificado en knowledge/, derived claims.
 
-10. Guardar:
-- AUTO en `content/ready/`
-- REVIEW también en `content/ready/`, marcados como pendientes.
+   ⚠️ risk_level NO es autorización de publicación.
+   TODA pieza requiere /approve humano antes de /schedule.
 
-11. Publicación con Buffer MCP:
-- Herramienta: Buffer MCP (`mcp__buffer__*`)
-- Programar ÚNICAMENTE posts AUTO.
-- NO programar REVIEW sin aprobación expresa del usuario.
-- NO programar durante la semana — solo en sesión de sábado o domingo.
-- Orden de prioridad al programar:
-  1. Novedades de obra de la semana → slot jueves
-  2. Actualidad del nicho → slot lunes o miércoles
-  3. Borradores atemporales de `content/drafts/` → resto de slots
-- Mantener siempre mínimo 5 posts programados en Buffer.
-- Para programar: llamar primero `get_account` para obtener `organizationId`, luego `list_channels` para obtener `channelId`.
+9. Guardar TODOS los borradores en `content/drafts/`:
+   - Un archivo por pieza: `draft-[slug]-YYYY-MM-DD.md`
+   - Frontmatter obligatorio:
+     ```
+     draft_date: YYYY-MM-DD
+     pillar:
+     risk_level: low | review
+     value_category: [categoría]
+     value_promise: "[promesa]"
+     facts_used: []
+     derived_claims: []
+     needs_verification: []
+     critic_status: pending
+     ```
 
-12. Guardar el calendario final en:
-`content/scheduled/SEMANA-YYYY-MM-DD.md`
+10. Guardar el calendario de planificación en:
+    `content/scheduled/SEMANA-YYYY-MM-DD.md`
+    Este archivo es solo un índice de planificación, no autorización de publicación.
 
-Formato final:
+Formato del calendario:
 
-# SEMANA
+# SEMANA YYYY-MM-DD
 
-## Día / fecha / hora
+## [Día] / [fecha] / [hora propuesta]
 
 Pilar:
 Marco:
 Concepto propio:
 Experiencia:
 Formato:
-Modo:
+risk_level:
+Draft: content/drafts/[nombre].md
 Nota visual:
 
 ### Texto final
-
-[texto listo para publicar]
+[texto listo para revisión]
 
 ### Por qué se eligió
 [1-2 líneas]
 
-Repetir para los 7 días.
+---
+
+Siguiente paso para cada pieza: /review [draft-name] → /approve → /schedule

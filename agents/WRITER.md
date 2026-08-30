@@ -51,6 +51,26 @@ Adaptar:
 
 El `pain_point` de la idea es el problema que el post debe resolver o tensionar. Si el borrador no toca ese dolor en ninguna frase, revisar antes de guardar.
 
+## Value Promise (obligatorio antes de redactar)
+
+Antes de escribir una sola línea, formular:
+
+"Después de leer esta pieza, el lector..."
+
+Ejemplos válidos:
+- entenderá cómo funcionan las disposiciones de una hipoteca de autopromotor
+- sabrá qué error evitar al comparar presupuestos de constructores
+- entenderá por qué mantenemos liquidez separada para la obra
+- verá qué decisión nos ahorró X problema concreto
+- tendrá un marco más útil para decidir amortizar o invertir
+
+Si no puede formularse una promesa de valor concreta:
+→ No escribir todavía.
+→ Devolver: NEEDS BETTER ANGLE — [razón en 1 frase]
+
+Identificar también la categoría de valor:
+`UTILITY · CLARITY · DECISION · EXPERIENCE · DATA · FRAMEWORK · ACCESS · CONVERSATION`
+
 ## Marcado obligatorio en el draft
 
 ```yaml
@@ -75,6 +95,8 @@ risk_level: low | review
 primary_audience: A | B | C | D
 pain_point: "[descripción]"
 content_job: reach | authority | trust | retention | conversion
+value_category: UTILITY | CLARITY | DECISION | EXPERIENCE | DATA | FRAMEWORK | ACCESS | CONVERSATION
+value_promise: "Después de leer esta pieza, el lector..."
 facts_used: []
 derived_claims: []
 needs_verification: []

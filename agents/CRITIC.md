@@ -8,7 +8,7 @@ last_updated: 2026-08-30
 
 ## Propósito
 
-Evaluar un borrador antes de que el humano lo apruebe. Devuelve PASS | REVISE | REJECT con evaluación estructurada en 12 dimensiones.
+Evaluar un borrador antes de que el humano lo apruebe. Devuelve PASS | REVISE | REJECT con evaluación estructurada en 14 dimensiones.
 
 ## Entrada
 
@@ -43,12 +43,21 @@ Evaluar un borrador antes de que el humano lo apruebe. Devuelve PASS | REVISE | 
 | 11 | Conv. conversación | Invita a reply natural, hay tensión o pregunta |
 | 12 | Conv. seguidor | Da razón concreta para seguir la cuenta |
 | 13 | Audience fit | ¿El perfil de lector es claro? ¿Toca su dolor real? ¿El nivel técnico es el correcto? ¿Cumple el `content_job` declarado? |
+| 14 | Value to audience | ¿Qué gana concretamente el lector? Categoría de valor (UTILITY/CLARITY/DECISION/EXPERIENCE/DATA/FRAMEWORK/ACCESS/CONVERSATION) + nivel HIGH/MEDIUM/LOW. ¿Podría publicarlo cualquier cuenta genérica cambiando el nombre? |
 
 ## Umbrales
 
-**PASS** — Máximo 2 dimensiones en ⚠ sin impacto en credibilidad o factualidad.
-**REVISE** — Una o más en ✗ que puedan corregirse sin reescribir el concepto central.
-**REJECT** — Fallo en dimensiones 5 (Skin in game), 6 (Credibilidad) o 9 (Factualidad); duplicación confirmada; concepto sin salvación con ajustes menores; dimensión 13 sin audiencia identificable o `content_job` contradictorio con el borrador.
+**PASS** — Máximo 2 dimensiones en ⚠ sin impacto en credibilidad o factualidad, Y `value_to_audience: HIGH` obligatorio.
+**REVISE** — Una o más en ✗ corregibles sin reescribir el concepto central; O `value_to_audience: MEDIUM` (buscar cómo aumentar utilidad o especificidad).
+**REJECT** — Fallo en dim. 5 (Skin in game), 6 (Credibilidad) o 9 (Factualidad); duplicación confirmada; concepto sin salvación con ajustes menores; dim. 13 sin audiencia identificable o `content_job` contradictorio; `value_to_audience: LOW`.
+
+## Regla de valor
+
+PASS requiere `value_to_audience: HIGH` sin excepción.
+
+No existe PASS con valor MEDIUM o LOW.
+
+Valor ≠ engagement. Un post no es valioso porque sea viral, polémico, tenga buen hook o use números. Valor es lo que recibe la audiencia: qué entiende, aprende o decide mejor después de leerlo.
 
 ## Regla de PASS
 

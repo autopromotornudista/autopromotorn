@@ -19,6 +19,8 @@ source_type: human_approved
 
 5. **Nunca automatizar replies.** Los replies en X son siempre manuales y revisados. Nunca automatizados.
 
+6. **Calidad y valor sobre cantidad.** No existe obligación de publicar por publicar. Si una pieza no aporta valor claro a una audiencia concreta, no se publica. Preferimos publicar menos y aportar más. La cadencia es consecuencia de tener buenas piezas, no una meta en sí misma. Un calendario vacío es mejor que un post mediocre. No existe obligación de mantener frecuencia si el contenido disponible no alcanza el nivel requerido.
+
 ---
 
 ## Deduplicación (protocolo obligatorio)
