@@ -11,35 +11,35 @@ facts_used:
   - Los industriales propuestos para electricidad y fontanería no generaron confianza suficiente
 derived_claims: []
 needs_verification: []
-critic_status: pending
+critic_status: PASS
+critic_date: 2026-08-31
+critic_notes: "14/14 — Value HIGH. Decisión real con doble motivo (calidad + ahorro). Ahorro ESTIMATED bien matizado (~10.000€). Cierre 'no es para todo el mundo' es honesto y diferenciador."
 correction_log: "2026-08-30 — Dato corregido: ahorro de 15.000€ a ~10.000€. Motivo añadido: control de calidad, no solo ahorro económico."
+approved: true
+approved_date: 2026-08-31
+slot_confirmed: "Vie 04/09 · 20:00"
 ---
 
-# BORRADOR — Tweet: Separar gremios del constructor
+# Tweet: Separar gremios del constructor
 
 **Pilar:** Vivienda / Economía  
 **Formato:** Tweet único  
-**Slot sugerido:** semana 1 septiembre
+**Slot:** Vie 04/09 · 20:00
 
 ---
 
-Sacamos cuatro partidas fuera del contrato del constructor:
+Podríamos haberlo contratado todo con un constructor general.
 
-→ Carpintería exterior
-→ Electricidad
-→ Fontanería
-→ Ventilación
+No lo hicimos.
 
-El motivo no fue únicamente el ahorro.
+Electricidad, fontanería, carpintería exterior y ventilación los contratamos por separado.
 
-Con los industriales que nos proponían para electricidad y fontanería, la sensación no era buena.
+Lo más importante no fue el ahorro.
 
-La forma de presupuestar, los plazos, la seriedad general.
+Fue trabajar con profesionales de nuestra confianza, con buenas referencias, que sabemos cómo trabajan.
 
-Decidimos buscar los nuestros.
+El ahorro estimado ronda los 10.000€. Pero eso es la consecuencia, no el motivo.
 
-El ahorro estimado: ~10.000 €.
+Lo que no te dicen: alguien tiene que coordinar. Eso recae sobre nosotros, junto con el constructor principal. Él mismo nos ofreció ayudarnos en todo lo que pudiese.
 
-Pero hay cosas más difíciles de cuantificar que el precio.
-
-No es para todo el mundo. Implica buscar a los industriales, coordinar plazos y asumir la responsabilidad de cada gremio.
+No es para todo el mundo. Necesitas tiempo y tolerancia a la gestión.

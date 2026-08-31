@@ -13,27 +13,34 @@ needs_verification: []
 critic_status: PASS
 critic_date: 2026-08-30
 critic_notes: "13/14 — Value HIGH. Overlap mínimo con post replanteo 27/08 (ángulos distintos). Frontmatter completado."
+approved: true
+approved_date: 2026-08-31
+slot_confirmed: "Jue 03/09 · 20:00"
 ---
 
-# BORRADOR — Tweet: Primer pago a técnicos por trabajo en terreno
+# Tweet: Primer pago a técnicos por trabajo en terreno
 
 **Pilar:** Proceso Real  
 **Formato:** Tweet único  
-**Slot sugerido:** semana 1 septiembre, jueves
+**Slot:** Jue 03/09 · 20:00
 
 ---
 
-Ayer pagué 3.300 € a arquitecto y aparejador.
+Hace una semana pagué 3.300€ a arquitecto y aparejador.
 
 No es el primer pago que les hago.
 
 Ya pagué el proyecto básico, el de ejecución y la coordinación de seguridad y salud.
 
-Pero estos son diferentes: son los primeros por trabajo hecho en el terreno.
+Pero estos son los primeros por trabajo en obra.
 
-El acta de replanteo lo activa.
+Son el primer tercio de la dirección de obra y la dirección de ejecución. Se activan al comenzar la construcción.
 
-A partir de aquí, cada hito de obra = nuevo pago.
+El pago no llega todo de golpe — se divide en tres tercios, ligados a hitos concretos:
+
+— Al comenzar la obra
+— Al terminar la estructura
+— Al terminar la carpintería exterior
 
 Mucha gente calcula los honorarios de los técnicos como un coste fijo al principio.
 

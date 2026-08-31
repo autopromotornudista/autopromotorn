@@ -21,24 +21,36 @@ needs_verification:
   - "Verificar que la relación 2,05% vs. rentabilidad esperada sigue siendo favorable con supuestos actuales antes de publicar"
   - "No publicar con cifras concretas de diferencial en € sin recalcular con supuestos actuales"
 critic_status: PASS
-critic_date: 2026-08-30
-critic_notes: "v4 — 14/14 dimensiones ✓. Value HIGH. Derived claims señalizados. Listo para /approve."
+critic_date: 2026-08-31
+critic_notes: "v5 — PASS. Gancho actualizado con simulación 50.000€ al 9% (91.800€ vs 663.000€). Plural aplicado. Disclaimer incluido. Slot Mar 01/09."
 approved_by: human
-approved_date: 2026-08-30
+approved_date: 2026-08-31
 critic_override: false
 value_level: HIGH
+slot_confirmed: "Mar 01/09 · 11:47"
+derived_claims:
+  - "91.800€ = 50.000€ × (1,0205)^30 — DERIVED"
+  - "663.000€ = 50.000€ × (1,09)^30 — DERIVED"
+  - "Diferencia ~571.000€ — DERIVED. Antes de impuestos. Rentabilidad no garantizada."
 ---
 
-🧵 1/7
+🧵 1/8
 
-Firmamos 250.000 € de hipoteca al 2,05% fijo.
-Y no tenemos intención de amortizarla cuanto antes.
-Primer instinto: eso parece ilógico.
-Mi segundo instinto fue pensar mejor.
+91.800€ vs 663.000€.
+
+Con los mismos 50.000€.
+En el mismo plazo de 30 años.
+
+La diferencia: uno amortiza hipoteca al 2,05%.
+El otro los invierte al 9% anualizado.
+
+Esta es la razón por la que firmamos 250.000€ al 2,05% fijo y no tenemos intención de amortizarla cuanto antes.
+
+Los números👇
 
 ---
 
-2/7
+2/8
 
 Primer orden:
 Tengo una deuda → amortizarla es reducirla → eso es bueno.
@@ -47,16 +59,16 @@ Y es correcta, si no piensas más allá.
 
 ---
 
-3/7
+3/8
 
 Segundo orden:
-¿Cuánto me cuesta realmente esa deuda?
+¿Cuánto nos cuesta realmente esa deuda?
 2,05% fijo a 30 años.
 ¿Y la queremos eliminar cuanto antes?
 
 ---
 
-4/7
+4/8
 
 En nuestro caso, estimamos que el coste de esa deuda queda por debajo de lo que esperamos que generen los activos de largo plazo.
 Si eso se cumple, amortizar tiene un coste de oportunidad real.
@@ -65,7 +77,25 @@ Cada euro amortizado es un euro que deja de estar invertido.
 
 ---
 
-5/7
+5/8
+
+Simulación con 50.000€:
+
+Amortizas → ahorras el 2,05% → equivale a ~91.800€ en 30 años.
+
+Inviertes al 9% anualizado → ~663.000€ en 30 años.
+
+Diferencia potencial: ~571.000€.
+
+El 9% no está garantizado. El 2,05% sí.
+
+Pero esa brecha es exactamente el coste de oportunidad de amortizar.
+
+*Simulación antes de impuestos. La rentabilidad no está garantizada.*
+
+---
+
+6/8
 
 No es una decisión instintiva.
 Sino porque, con nuestras expectativas de largo plazo y una deuda fija al 2,05%, preferimos mantener ese capital invertido.
@@ -73,7 +103,7 @@ Y lo revisamos si cambian las condiciones.
 
 ---
 
-6/7
+7/8
 
 Esta decisión podría cambiar si:
 — los ingresos bajan estructuralmente
@@ -85,7 +115,7 @@ No es dogma. Es plan.
 
 ---
 
-7/7
+8/8
 
 Amortizar o no amortizar no tiene una respuesta universal.
 Tiene una respuesta para tu tipo de interés, tu horizonte y lo que esperas de tus activos.
