@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-30
+last_updated: 2026-08-31
 source_type: human_approved
 ---
 
@@ -64,6 +64,21 @@ content/     → ideas, drafts, ready, scheduled, publicados
 - Cuando se quiera extraer algo de ella para `editorial/`, requiere evaluación y aprobación humana.
 
 **Regla de precedencia:** si algo en BIBLIOTECA_V2 contradice un archivo de `knowledge/`, prevalece `knowledge/`.
+
+---
+
+## Sistema HARVESTER — ingesta de fuentes externas
+
+El sistema HARVESTER gestiona la captura de ideas desde fuentes externas antes de que lleguen a esta capa editorial.
+
+| Herramienta | Entrada | Destino |
+|-------------|---------|---------|
+| `/harvest` | URL (YouTube, Substack, web, X) | `sources/` + `content/ideas/` |
+| `/harvest-newsletter` | Texto pegado de newsletter | `content/ideas/inbox/` |
+
+Las ideas capturadas por HARVESTER **nunca escriben directamente en `editorial/`**. Solo pasan a `editorial/` tras transformación aprobada por el usuario.
+
+Ver `docs/HARVESTER.md` para la arquitectura completa del sistema.
 
 ---
 

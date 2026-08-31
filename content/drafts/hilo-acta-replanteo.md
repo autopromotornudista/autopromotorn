@@ -8,7 +8,7 @@
 
 ## Tweet 1 (gancho)
 
-Esta semana firmé el acta de replanteo de mi casa.
+Hace un par de semanas firmé el acta de replanteo de mi casa.
 
 La mayoría de los que quieren construir no saben qué es.
 

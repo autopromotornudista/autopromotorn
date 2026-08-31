@@ -58,8 +58,8 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
   frequency: irregular
   priority: medium
   active: true
-  last_processed: 2026-08-29
-  ideas_generated: 2
+  last_processed: 2026-08-31
+  ideas_generated: 5
   ideas_published: 0
   ideas_high_performance: 0
   yield_score: null
@@ -72,6 +72,16 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
       url: https://joantubau.substack.com/p/proyectos-pinguino
       ideas_saved: [IDEA-HAR-001, IDEA-HAR-002]
       ideas_discarded: [IDEA-HAR-003 solapamiento IDEA-002, IDEA-HAR-004 framing dependiente fuente, IDEA-HAR-005 prioridad baja]
+    - date: 2026-08-31
+      article: "La gran conspiración boomer"
+      url: https://joantubau.substack.com/p/la-gran-conspiracion-boomer
+      ideas_saved: [IDEA-HAR-006, IDEA-HAR-007]
+      ideas_discarded: ["ángulo boomers-no-venden — demasiado próximo a construir-vs-comprar (31/08) y decisiones-abiertas (14/09)"]
+    - date: 2026-08-31
+      article: "Cuando la opcionalidad te mata"
+      url: https://joantubau.substack.com/p/cuando-la-opcionalidad-te-mata
+      ideas_saved: [IDEA-HAR-008]
+      ideas_discarded: ["opcionalidad financiera/no-amortizar — enriquece IDEA-HAR-001 en lugar de crear idea separada"]
 
 - id: SRC-003
   name: Canal YouTube hipotecas y mercado inmobiliario España
