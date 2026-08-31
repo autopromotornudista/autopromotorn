@@ -72,7 +72,7 @@ Lo demás tampoco aplica:
 
 → Ninguno de los dos tiene menos de 36 años
 → No somos familia numerosa
-→ La parroquia O Abelar (Curtis) no está en la lista oficial de zonas poco pobladas de la Orden de Facenda
+→ Nuestra parroquia en Galicia no está en la lista oficial de zonas poco pobladas de la Orden de Facenda
 
 Tipo aplicable: **1,5%. 2.340€. Sin salida.**
 

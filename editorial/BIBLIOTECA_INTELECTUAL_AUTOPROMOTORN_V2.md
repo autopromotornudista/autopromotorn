@@ -40,10 +40,10 @@ Joan aporta el marco.
 - Tipo: 2,05% fijo.
 - Plazo: 30 años.
 - Firma: 27 julio 2026.
-- Cartera de inversión familiar: 250.000€ antes de la obra.
-- DCA familiar: 1.000€/mes.
-- Objetivo durante la obra: conservar aproximadamente el 50% de la cartera.
-- Última disposición pendiente de hipoteca: 37.500€.
+- Cartera de inversión familiar: activa durante la obra. Importe exacto NO publicable — ver INVESTMENTS.md § "Datos que no son editoriales".
+- DCA de Bitcoin: DCA semanal en curso hasta final de 2026 (ver INVESTMENTS.md). Importe exacto NO publicable.
+- Objetivo durante la obra: conservar una parte significativa de la cartera de inversión para no descapitalizarse ni comprometer la financiación de la obra.
+- Última disposición hipotecaria: existe. Importe exacto NO confirmado en VALIDATED_CONTEXT_2026-08-31 — marcar [NEEDS_VERIFICATION] antes de usar en cualquier post.
 
 ## Cronología
 
@@ -574,7 +574,7 @@ Liquidez permite:
 
 ## Riesgo real
 
-Última disposición hipotecaria pendiente: 37.500€.
+Última disposición hipotecaria pendiente: [NEEDS_VERIFICATION — importe no confirmado en VALIDATED_CONTEXT_2026-08-31].
 
 Uno de los mayores riesgos durante la obra:
 
@@ -584,9 +584,11 @@ quedarse sin liquidez antes de llegar a esa disposición.
 
 ### FY-01
 
+[NEEDS_VERIFICATION — el importe de la última disposición no está confirmado en VALIDATED_CONTEXT_2026-08-31. Verificar con el protagonista antes de publicar.]
+
 “Hay un número que ahora mismo me preocupa más que los 250.000€ de hipoteca:
 
-37.500€.
+[importe a verificar].
 
 Es la última disposición.”
 
@@ -1246,7 +1248,7 @@ post “el primer escalón”.
 
 1. “410.000€ tienen un efecto bastante peligroso sobre tu cerebro.”
 2. “Una de las cosas más caras que hemos comprado fueron 6 años.”
-3. “Hay un número que ahora mismo me preocupa más que nuestra hipoteca: 37.500€.”
+3. “Hay un número que ahora mismo me preocupa más que nuestra hipoteca: [importe — NEEDS_VERIFICATION, no confirmado en VALIDATED_CONTEXT_2026-08-31].”
 4. “Estamos construyendo una casa de 410.000€ y hemos decidido NO poner piscina.”
 5. “Firmamos 250.000€ de hipoteca y no tenemos intención de amortizarla cuanto antes.”
 6. “Compré mi primera vivienda con 23 años. Hoy esa decisión sigue financiando nuestra vida.”
