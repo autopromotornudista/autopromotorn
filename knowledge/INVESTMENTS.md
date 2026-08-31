@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 source_type: human_approved
 ---
 
@@ -78,10 +78,9 @@ Las dos capas tácticas (ETF y empresa cotizada) **no forman parte de la asignac
 
 ## Liquidez
 
-Existen dos tipos de liquidez que no deben confundirse:
+**No existe un "colchón de obra" separado.** Los imprevistos de la construcción se absorben con la liquidez general de la cartera (fondos monetarios).
 
-1. **Colchón de obra:** reserva independiente para cubrir imprevistos y disposiciones durante la construcción
-2. **Liquidez estructural permanente:** parte de la cartera siempre en activos líquidos de bajo riesgo
+Liquidez estructural de la cartera: parte siempre en activos líquidos de bajo riesgo (fondos monetarios). Función: preservación de capital a corto plazo + absorción de imprevistos.
 
 La cartera está diseñada para que una caída fuerte de los activos de riesgo **no comprometa la financiación de la construcción**.
 
@@ -93,7 +92,7 @@ La cartera está diseñada para que una caída fuerte de los activos de riesgo *
 
 Orden previsto únicamente ante una desviación extraordinaria:
 
-1. Colchones disponibles
+1. Liquidez estructural disponible (monetarios)
 2. Estudiar financiación externa
 3. Liquidar inversiones — solo como emergencia extrema
 

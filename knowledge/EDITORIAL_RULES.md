@@ -33,7 +33,7 @@ Antes de generar contenido nuevo, revisar en este orden:
 2. `contenido/tweets-publicados.md`
 3. `content/ready/`
 4. `content/scheduled/`
-5. `knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (o el archivo de mes vigente)
+5. `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` (o el archivo de mes vigente en `content/planning/`)
 6. `content/drafts/`
 
 **Qué evitar repetir:** misma experiencia · mismo dato con enfoque demasiado similar · mismo hook · misma conclusión.

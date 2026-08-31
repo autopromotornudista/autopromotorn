@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 source_type: human_approved
 ---
 
@@ -51,7 +51,7 @@ Forma pública recomendada: "La vivienda tiene unos 122 m² útiles. El conjunto
 - Acabados estéticos (se nota el primer día, no el día 1.000)
 - Domótica integral: descartada. Solo automatismos puntuales (persianas, portalón, videoportero).
 - Superficie de estancias secundarias (funcionales, no maximizadas)
-- Suelo radiante: eliminado. Calefacción: estufa de pellets + VMC doble flujo. Ahorro estimado: ~15.000 € (ESTIMATED/DERIVED).
+- Suelo radiante: eliminado. Calefacción: estufa de pellets (CONTRACTED, 3.500€) + VMC doble flujo. Ahorro estimado: ~15.000 € (ESTIMATED/DERIVED).
 - Aerotermia de calefacción: eliminada. ACS sí mediante aerotermo.
 
 ### Descartado — fuera del proyecto
@@ -60,7 +60,7 @@ Forma pública recomendada: "La vivienda tiene unos 122 m² útiles. El conjunto
 - Garaje cerrado (garaje abierto, sin puerta motorizada; sí existe portalón motorizado en acceso a parcela)
 - Habitación extra / 4.º dormitorio
 - Metros sin función clara (~10 m² eliminados, 4→3 dorm, ahorro ~30.000 € — ESTIMATED)
-- Placas fotovoltaicas inicialmente (instalación preparada para futura opción)
+- Placas fotovoltaicas inicialmente (paso de cables instalado durante obra — PLANNED; ejercer en futuro como opción real)
 - Cargador VE inicialmente (cuadro preparado)
 
 ### Pavimentos
@@ -72,7 +72,7 @@ Forma pública recomendada: "La vivienda tiene unos 122 m² útiles. El conjunto
 ### Climatización y ACS
 
 - ACS: aerotermo.
-- Calefacción: estufa de pellets en salón. La VMC doble flujo ayuda a distribuir el calor.
+- Calefacción: estufa de pellets en salón (CONTRACTED, 3.500€). La VMC doble flujo ayuda a distribuir el calor.
 - La VMC incorpora resistencia eléctrica de apoyo.
 - No hay suelo radiante. No hay aerotermia para calefacción.
 - No describir como "casa con aerotermia" — es incorrecto.

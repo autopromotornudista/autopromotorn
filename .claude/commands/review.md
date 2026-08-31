@@ -21,7 +21,7 @@ Un PASS NO autoriza publicación. Solo /approve (humano) → /schedule (humano) 
 5. Verificar deduplicación en las 6 fuentes obligatorias:
    - `content/published/`
    - `contenido/tweets-publicados.md`
-   - `autopromotorn_claude_content_os/knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md`
+   - `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md`
    - `content/ready/`
    - `content/scheduled/`
    - `content/drafts/` (otros drafts)

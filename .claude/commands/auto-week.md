@@ -13,9 +13,9 @@ Proceso:
 1. Revisar:
    - `CLAUDE.md`
    - `knowledge/` (todos los archivos)
-   - `autopromotorn_claude_content_os/knowledge/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md`
-   - `autopromotorn_claude_content_os/knowledge/autopromotorN_8_pilares_32_tweets.md`
-   - `autopromotorn_claude_content_os/knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado, no repetir)
+   - `editorial/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md`
+   - `editorial/PILARES_32_TWEETS.md`
+   - `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` (READY/SCHEDULED = ya utilizado, no repetir)
    - `content/published/`
    - `contenido/tweets-publicados.md`
    - `content/ideas/`

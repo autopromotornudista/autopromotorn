@@ -54,7 +54,7 @@ Leer obligatoriamente:
 Comprobar en las 6 fuentes:
 1. `content/published/`
 2. `contenido/tweets-publicados.md`
-3. `autopromotorn_claude_content_os/knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md`
+3. `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md`
 4. `content/ready/`
 5. `content/scheduled/`
 6. `content/drafts/`

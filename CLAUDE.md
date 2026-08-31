@@ -107,19 +107,20 @@ Anécdotas, trucos, reflexiones y opiniones sobre criar hijos. Puede estar vincu
 
 ## Calendario editorial semanal
 
-Horario validado por Grok (agosto 2026) para audiencia española. **Sábado eliminado** — es consistentemente el peor día de la semana.
+Cadencia: **mínimo 7 publicaciones propias / semana, 7 días.** Domingo = pieza principal de la semana. Ver `knowledge/CADENCIA.md` para reglas completas de volumen, Value Gate y horarios.
 
 ```
-LUNES     → 🧠 Reflexiones & Contexto     · opinión + pregunta · 9:00h
-MARTES    → 💡 Lecciones & Tips           · hilo 5-8 tweets   · 9:00h  ← hilos aquí, no sábado
-MIÉRCOLES → 💶 Números & Finanzas         · dato + foto        · 9:00h
-JUEVES    → 🏗️ Proceso Real               · foto real + texto  · 9:00h
+LUNES     → 🧠 Reflexiones & Contexto     · opinión + pregunta
+MARTES    → 💡 Lecciones & Tips           · hilo 5-8 tweets
+MIÉRCOLES → 💶 Números & Finanzas         · dato + foto
+JUEVES    → 🏗️ Proceso Real               · foto real + texto
+VIERNES   → Flexible (cualquier pilar)
+SÁBADO    → 👨‍👧‍👦 Familia & Vida Real o flexible
+DOMINGO   → Mejor pieza disponible de la semana (prioritario)
 ```
 
-Franjas horarias óptimas (datos reales del archivo X, agosto 2026): **18:00 CET** (3× la media de engagement) · **20:00 CET** (segunda opción)
+Franjas horarias óptimas (datos reales del archivo X, agosto 2026): **18:00 CET** (3× la media de engagement) · **20:00 CET** (segunda opción) · **9:00h** como alternativa matinal
 Evitar: 14:00–17:00 (siesta digital) · después de las 23:00
-
-> **Nota sobre días:** Los datos históricos muestran que domingo (2,3 likes/tweet) y sábado (1,2) son los días de mayor engagement real, y jueves el peor. El calendario actual (Lun–Jue) se mantiene por consistencia, pero se recomienda testear sábado/domingo antes de optimizar. Ver `docs/analisis-contenido-historico.md`.
 
 ## Optimización del perfil
 
@@ -192,15 +193,16 @@ Nichos secundarios (buscar cuentas con 2-10x seguidores actuales):
 - **XMCP (pendiente):** `https://api.x.com/mcp` — para leer nicho y buscar conversaciones (requiere developer account)
 - **Skill /marketing:** skill personalizado para generar contenido en el tono de la cuenta
 
-## Historial de contenido
+## Historial de contenido y fuentes editoriales
 
-Ver `./contenido/tweets-publicados.md` antes de generar nuevo contenido para evitar repeticiones.
-Ver `./contenido/calendario.md` para el plan editorial en curso.
-Ver `./contenido/formatos-y-ejemplos.md` para ejemplos validados por formato y pilar.
-Ver `./contenido/hooks.md` para la fórmula de hooks y aperturas de alto rendimiento — **leer antes de escribir cualquier tweet**.
-Ver `./contenido/replies.md` para las reglas de reply estratégico (acción diaria prioritaria).
-Ver `./docs/guia-redaccion.md` para los 4 formatos narrativos (historia de terceros, desnudo financiero, error propio, contraste) — **leer antes de redactar cualquier post**.
-Ver `./docs/analisis-contenido-historico.md` para temas ya tratados, qué formatos funcionan con datos reales, y timing validado por el archivo histórico de X.
+Ver `content/published/` para historial canónico de publicaciones.  
+Ver `contenido/tweets-publicados.md` (LEGACY) — fuente de deduplicación histórica, conservar intacto.  
+Ver `editorial/VOICE.md` para voz, tono y reglas de estilo — **leer antes de escribir cualquier tweet**.  
+Ver `editorial/FORMATS.md` para los formatos narrativos (historia de terceros, desnudo financiero, error propio, contraste).  
+Ver `editorial/PILARES_32_TWEETS.md` para la biblioteca de 32 tweets organizados en 8 pilares.  
+Ver `editorial/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md` para marcos conceptuales y ángulos.  
+Ver `content/planning/` para candidatos de contenido por periodo (no mezclados con published/).  
+Ver `docs/analisis-contenido-historico.md` para temas ya tratados, formatos y timing validado.
 
 ---
 
@@ -211,7 +213,7 @@ Ver `./docs/analisis-contenido-historico.md` para temas ya tratados, qué format
 - **LEGACY:** `contenido/borradores/` — conservar intacto, no modificar sin autorización expresa
 
 ### Biblioteca de pilares
-- **CANÓNICA:** `knowledge/autopromotorN_8_pilares_32_tweets.md`
+- **CANÓNICA:** `editorial/PILARES_32_TWEETS.md`
 - **LEGACY:** `contenido/biblioteca-8-pilares-32-tweets.md` — conservar intacto, no modificar sin autorización expresa
 
 ### Deduplicación — fuentes a revisar SIEMPRE antes de generar contenido nuevo
@@ -220,7 +222,7 @@ En este orden:
 2. `contenido/tweets-publicados.md`
 3. `content/ready/`
 4. `content/scheduled/`
-5. `knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` — contenido READY/SCHEDULED = ya utilizado, no repetir
+5. `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` — contenido READY/SCHEDULED = ya utilizado, no repetir
 6. `content/drafts/`
 
 Evitar repetir: misma experiencia · mismo marco · mismo hook · misma conclusión · mismo dato con enfoque demasiado similar.

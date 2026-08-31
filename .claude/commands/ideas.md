@@ -11,7 +11,7 @@ Proceso:
    - `contenido/tweets-publicados.md`
    - `content/ready/`
    - `content/scheduled/`
-   - `knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado, no repetir)
+   - `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` (READY/SCHEDULED = ya utilizado, no repetir)
    - `content/drafts/`
 4. Priorizar marcos infrautilizados.
 5. Evitar repetir conclusiones.

@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-30
+last_updated: 2026-08-31
 source_type: human_approved
 ---
 
@@ -19,7 +19,7 @@ Los desgloses detallados por partida se incorporarán únicamente cuando hayan s
 |----------|-------|-----------|
 | Coste total del proyecto | ~410.000 € | Aproximado |
 | Hipoteca | 250.000 € | Exacto |
-| Coste de la parcela | 15.000 € | Exacto |
+| Coste de la parcela | ~15.000 € | Figura pública aprobada |
 | Valor de mercado de la parcela | ~40.000 € | Estimado |
 | Venta vivienda anterior (2025) | 98.000 € | Exacto |
 
@@ -29,7 +29,7 @@ Los desgloses detallados por partida se incorporarán únicamente cuando hayan s
 
 | Categoría | Coste real aproximado |
 |-----------|----------------------|
-| Parcela (adquisición + gastos) | ~10.400 € |
+| Parcela (adquisición) | ~15.000 € |
 | Proyecto y técnicos | ~24.000 € |
 | Construcción (gremios + IVA) | ~329.000 € |
 | Equipamiento | ~36.000 € |
@@ -38,6 +38,7 @@ Los desgloses detallados por partida se incorporarán únicamente cuando hayan s
 | **TOTAL** | **~410.000 €** |
 
 > Estos totales de categoría son editoriales. Los importes por empresa o proveedor no se publican y se mantienen en documentación privada local.
+> **Parcela — privacidad:** La figura pública aprobada es "~15.000 €". La naturaleza exacta de la transacción es privada. El importe de ~10.400 € (costes asociados a la transacción) es dato legacy descartado por inconsistencia interna — no usar.
 
 ---
 

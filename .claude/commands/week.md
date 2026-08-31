@@ -10,7 +10,7 @@ Proceso:
 1. Revisar publicaciones de los últimos 30 días en:
    - `content/published/`
    - `contenido/tweets-publicados.md`
-   - `knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado, no repetir)
+   - `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` (READY/SCHEDULED = ya utilizado, no repetir)
    - `content/ready/`
    - `content/scheduled/`
    - `content/drafts/`

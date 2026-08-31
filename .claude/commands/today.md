@@ -13,7 +13,7 @@ Proceso:
    - `knowledge/` (todos los archivos)
    - `content/published/`
    - `contenido/tweets-publicados.md`
-   - `autopromotorn_claude_content_os/knowledge/SEPTIEMBRE_2026_AUTOPROMOTORN.md` (READY/SCHEDULED = ya utilizado)
+   - `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` (READY/SCHEDULED = ya utilizado)
    - `content/ideas/`
    - `content/ready/`
    - `content/scheduled/`
