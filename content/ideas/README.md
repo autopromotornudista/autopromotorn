@@ -20,6 +20,9 @@ content/ideas/
 ├── README.md               ← este archivo
 ├── inbox/                  ← ideas recién capturadas, sin validar
 │   └── IDEA-NL-*.md        ← ideas de newsletters (skill /harvest-newsletter)
+├── forum/                  ← insights de audiencia detectados por FORUM_SCOUT
+│   ├── README.md           ← convenciones del subfolder y formato FORUM-*.md
+│   └── FORUM-YYYYMMDD-NNN.md  ← un archivo por insight (score ≥ 60)
 ├── IDEA-HAR-*.md           ← ideas de newsletters/artículos procesados por /harvest
 ├── IDEA-VID-*.md           ← ideas de vídeos procesados por /harvest
 └── ideas-sesion-*.md       ← bancos de ideas generados en sesiones (LEGACY)
@@ -82,6 +85,9 @@ content/ready/ → content/scheduled/ → publicado
 |--------|---------|--------|
 | `/harvest` | URL (YouTube, Substack, web, X) | `sources/` + `content/ideas/` raíz |
 | `/harvest-newsletter` | Texto pegado | `content/ideas/inbox/` |
+| `/forum-scout` | RSS + visitas selectivas a SoloArquitectura | `content/ideas/forum/FORUM-*.md` |
+
+`/forum-scout` es el único agente que escribe en `content/ideas/forum/`. El flujo es autónomo (FORUM_SCOUT → WRITER → CRITIC) con intervención humana solo en `/approve` y `/schedule --confirm`.
 
 ---
 
@@ -104,6 +110,7 @@ Ver `docs/HARVESTER.md` para el protocolo completo.
 |--------|--------|
 | Crear `inbox/IDEA-NL-*.md` | `/harvest-newsletter` (skill) |
 | Crear `IDEA-HAR-*.md` / `IDEA-VID-*.md` | `/harvest` (comando) |
+| Crear `forum/FORUM-*.md` | FORUM_SCOUT (`/forum-scout`) — automático |
 | Modificar status a `pending` | Usuario (aprobación humana) |
 | Leer para desarrollar | WRITER (`/write`) |
 | Marcar como `discarded` | Usuario o CRITIC |

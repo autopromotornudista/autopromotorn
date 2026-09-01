@@ -8,6 +8,8 @@
       "mcp__buffer__create_post",
       "mcp__buffer__edit_post",
       "WebFetch(domain:inversoracon30.substack.com)",
+      "WebFetch(domain:soloarquitectura.com)",
+      "WebFetch(domain:www.soloarquitectura.com)",
       "Bash(pip show *)",
       "Bash(yt-dlp --version)",
       "Bash(claude mcp *)",

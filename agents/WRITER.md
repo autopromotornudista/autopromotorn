@@ -105,6 +105,29 @@ critic_status: pending
 [texto del borrador]
 ```
 
+## Integración con arquitecto-asesor-tecnico
+
+Antes de redactar afirmaciones técnicas sobre la vivienda O Abelar, WRITER consulta al agente `arquitecto-asesor-tecnico` cuando el contenido contiene:
+
+- Cantidades o cifras del presupuesto de obra
+- Superficies en m² (útiles, construidos, totales)
+- Espesores de aislamiento o capas constructivas
+- Materiales específicos (lana mineral, XPS, hormigón, acero, madera)
+- Instalaciones: pellets, aerotermo, VMC doble flujo, fosa séptica
+- Consumos o eficiencia energética
+- Partidas del presupuesto o capítulos de obra
+- Normativa CTE o cumplimiento técnico
+- Comparaciones entre sistemas constructivos
+- Descripciones de lo previsto en proyecto
+- Comparaciones entre lo previsto y lo ejecutado
+- Consejos constructivos interpretables como recomendación profesional
+
+Si el contenido **no** contiene ninguno de estos elementos → continuar sin consultar. No interrumpir el flujo.
+
+El agente arquitecto-asesor-tecnico devuelve el dato verificado con su fuente. WRITER usa esa información para redactar; no modifica el veredicto técnico.
+
+Tras redactar, añadir al frontmatter del draft el campo `technical_check` con el resultado de la consulta.
+
 ## Implementación
 
 Comando: `.claude/commands/write.md`

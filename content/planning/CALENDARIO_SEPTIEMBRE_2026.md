@@ -33,6 +33,7 @@ instagram: fuera del MVP — no incluir
 | 05/09 | Sáb | A | 09:00* | 💶 Números | Reducir ~20m²: cómo ahorramos ~30k€ sin perder calidad de vida | Tweet | ✅ HIGH | DRAFT_READY (PASS) | — | — |
 | 06/09 | Dom ★ | C | 18:00 | 💶 Números | Cubierta: 20.703€ → 37.425€ (+81%) — por qué una partida sube así | Tweet | ✅ HIGH | DRAFT_READY (PASS) | — | — |
 | 08/09 | Mar | A | 09:00 | 💶 Números | Interés compuesto desde el nacimiento: 25.400€ → 170.948€ | Hilo 8t | ✅ HIGH | DRAFT_READY (PASS) | — | — |
+| 08/09 | Mar | C | 18:00 | 💶 Números | Amortizar vs invertir: 5.000€/año · año 15 la cartera supera la deuda | Hilo 8t | ✅ HIGH | SCHEDULED Buffer 18:00 ⚠️ añadir imagen manualmente | — | — |
 
 **Notas semana 1:**
 - **Mié 02/09:** dos posts. Bitcoin 07:00 (ya en Buffer, fuera de EXP-003). Tweet-excavacion Slot A 09:00 (dentro de EXP-003).
@@ -164,7 +165,7 @@ Si la excavación no empieza en la semana del 15/09, los slots Jue 17/09 y Jue 2
 
 | ID | Slot | Concepto | Fuente factual |
 |---|---|---|---|
-| SEP-NEW-01 | Lun 14/09 | Invertir vs amortizar al 2,05% | VALIDATED_CONTEXT §4 — hipoteca + INVESTMENTS.md |
+| SEP-NEW-01 | ~~Lun 14/09~~ | ~~Invertir vs amortizar al 2,05%~~ | CANCELADO — adelantado a Mar 08/09 18:00. Hilo 8t programado en Buffer. |
 | SEP-NEW-02 | Mar 15/09 | Estufa pellets 3.500€ vs suelo radiante | VALIDATED_CONTEXT §9 — CONTRACTED 3.500€ |
 | SEP-NEW-03 | Vie 18/09 | ¿Pagarías un 30% más por empezar un año antes? | CANDIDATOS nota ideas — 3 presupuestos reales |
 | SEP-NEW-04 | Lun 21/09 | 5 años: el coste de oportunidad del tiempo | VALIDATED_CONTEXT §1 — cronología real |

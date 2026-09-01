@@ -113,6 +113,28 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
 
 ---
 
+- id: SRC-004
+  name: SoloArquitectura — Subforo Promotores y Autopromotores
+  author: comunidad (foro público)
+  type: forum
+  url: https://www.soloarquitectura.com/foros/forums/promotores-y-autopromotores.45/
+  rss_url: https://www.soloarquitectura.com/foros/forums/promotores-y-autopromotores.45/index.rss
+  frequency: continuous
+  priority: high
+  active: true
+  last_processed: null
+  insights_generated: 0
+  insights_published: 0
+  insights_high_performance: 0
+  yield_score: null
+  agent: FORUM_SCOUT
+  state_file: sources/forum/STATE.md
+  output_dir: content/ideas/forum/
+  notes: "Foro público de autopromotores. Fuente de puntos de dolor y preguntas reales de audiencia. Procesado por FORUM_SCOUT (no por HARVESTER directamente). Score ≥ 60 genera IDEA automáticamente. Score ≥ 80 genera también borrador via WRITER + evaluación via CRITIC. Solo lectura pública — no login, no formularios."
+```
+
+---
+
 ## Fuentes inactivas
 
 *(ninguna todavía)*

@@ -90,6 +90,16 @@ Recomendación: Propuesta N — [razón en 1 frase]
 - **Matiz o corrección respetuosa** — basada en hechos reales verificados
 - **Pregunta inteligente** — lleva la conversación más profunda
 
+## Integración con arquitecto-asesor-tecnico
+
+Cuando el post al que se responde toca aspectos técnicos de construcción o instalaciones, y @AutopromotorN quiere aportar datos técnicos de su propio proyecto, REPLY consulta al agente `arquitecto-asesor-tecnico` antes de generar la propuesta.
+
+El agente responde con formulación segura para uso público. REPLY usa esa formulación directamente — no reformula datos técnicos por su cuenta.
+
+Si el dato técnico necesario no está documentado → REPLY aplica la regla de SKIP o propone un reply sin datos técnicos propios, marcando `[SIN VERIFICAR]`.
+
+Nunca incluir en un reply público: ubicación exacta, referencias catastrales, nombres de técnicos o constructores, detalles de seguridad.
+
 ## Implementación
 
 Comando: `.claude/commands/reply.md`

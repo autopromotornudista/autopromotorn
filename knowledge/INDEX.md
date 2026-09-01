@@ -56,6 +56,9 @@ PUBLIC CONTENT      → content/published/ y canales sociales
 | `CONTENT_PILLARS.md` | Pilares temáticos y operativos, objetivos, límites | Planificación de contenido semanal |
 | `EDITORIAL_RULES.md` | Reglas operativas, aprobación, deduplicación | Antes de publicar o programar cualquier contenido |
 | `CADENCIA.md` | Cadencia, volumen semanal, Value Gate, horarios | Planificación y calendarización |
+| `technical/PROJECT_CHANGELOG.md` | Modificaciones de obra respecto al proyecto visado | Antes de afirmar que algo se ejecutó distinto a lo previsto |
+| `technical/OPEN_TECHNICAL_QUESTIONS.md` | Preguntas técnicas pendientes, discrepancias y limitaciones | Cuando un dato técnico no puede confirmarse |
+| `technical/DOCUMENT_REQUESTS.md` | Cola de documentación pendiente para el agente técnico | Para saber qué documentos están esperando revisión |
 
 ---
 

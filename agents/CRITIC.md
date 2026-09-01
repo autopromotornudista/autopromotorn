@@ -65,6 +65,19 @@ Un PASS NO autoriza publicación.
 PASS significa: el draft está listo para que el humano lo apruebe con `/approve`.
 Solo `/approve` + `/schedule` (ambos humanos) autorizan publicar.
 
+## Integración con arquitecto-asesor-tecnico
+
+Cuando el borrador contiene afirmaciones técnicas sobre la vivienda O Abelar (espesores, materiales, instalaciones, superficies, partidas de obra, consumos, normativa CTE), CRITIC solicita revisión técnica al agente `arquitecto-asesor-tecnico` antes de emitir el veredicto final.
+
+El agente devuelve un veredicto estructurado (APROBADO / APROBADO CON CAMBIOS / BLOQUEADO). CRITIC lo incorpora:
+
+- `APROBADO` → no afecta al veredicto de CRITIC (salvo que otras dimensiones fallen)
+- `APROBADO CON CAMBIOS` → CRITIC da REVISE con las correcciones propuestas
+- `BLOQUEADO POR ERROR TÉCNICO` → CRITIC da REJECT (fallo en dim. 6 Credibilidad o dim. 9 Factualidad)
+- `BLOQUEADO POR FALTA DE INFORMACIÓN` → CRITIC da REVISE (no REJECT) — el dato puede resolverse con documentación
+
+Un contenido técnicamente sensible **no puede recibir PASS** si contiene datos técnicos de la vivienda presentados como hechos sin fuente verificada.
+
 ## Implementación
 
 Comando: `.claude/commands/review.md`

@@ -100,6 +100,26 @@ status: pending
 ---
 ```
 
+## Integración con arquitecto-asesor-tecnico
+
+Cuando una idea toca datos técnicos de la vivienda O Abelar (sistemas constructivos, materiales, instalaciones, eficiencia energética, superficies, presupuesto de obra), HARVESTER puede consultar al agente `arquitecto-asesor-tecnico` para:
+
+- Enriquecer la idea con datos técnicos documentados del proyecto real
+- Verificar si una afirmación técnica de la fuente externa coincide con la experiencia propia
+- Obtener el encuadre técnico correcto antes de que WRITER redacte
+
+La consulta es opcional (no automática): HARVESTER la activa cuando el ángulo de la idea depende de datos técnicos específicos de la vivienda para tener credibilidad diferencial.
+
+## Integración con FORUM_SCOUT
+
+HARVESTER puede consumir insights de `content/ideas/forum/FORUM-*.md` como entrada para desarrollo de borradores, pero **no los genera**: la creación de ideas de foro es responsabilidad exclusiva de FORUM_SCOUT.
+
+Flujo cuando HARVESTER recibe un FORUM-ID como entrada:
+- Leer el archivo `FORUM-*.md` correspondiente
+- Verificar que `experience_fit: true` (hay conexión con knowledge/)
+- Actuar como WRITER: generar borrador usando `knowledge/` como fuente de hechos y el insight del foro como ángulo
+- Nunca usar datos del foro como hechos verificados — solo como contexto de ángulo
+
 ## Implementación
 
 Comando: `.claude/commands/harvest.md`
