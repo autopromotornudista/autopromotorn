@@ -1,11 +1,11 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-31
+last_updated: 2026-09-05
 source_type: human_approved
 ---
 
-# knowledge/ — Índice de conocimiento aprobado
+# knowledge/ — Gobierno del conocimiento aprobado
 
 ## Propósito
 
@@ -43,8 +43,7 @@ PUBLIC CONTENT      → content/published/ y canales sociales
 
 | Archivo | Qué contiene | Cuándo consultarlo |
 |---------|-------------|-------------------|
-| `VALIDATED_CONTEXT_2026-08-31.md` | **Contexto completo validado por el protagonista. Versión 1.1 (31/08/2026). Fuente de verdad más reciente. Prevalece sobre todos los documentos anteriores.** | SIEMPRE — leer primero |
-| `VALIDATED_CONTEXT_2026-08-30.md` | Snapshot histórico v1.0. Conservado como referencia. Usar solo si se necesita rastro de cambios. | No usar como fuente activa |
+| `VALIDATED_CONTEXT_2026-08-31.md` | **Contexto completo validado por el protagonista. Versión 1.1 (31/08/2026). Fuente de verdad vigente. Prevalece sobre todos los documentos anteriores.** | SIEMPRE — leer primero |
 | `PROJECT.md` | Identidad, propósito, posicionamiento, filosofía | Antes de cualquier tarea editorial |
 | `TIMELINE.md` | Cronología oficial confirmada del proyecto | Cuando el contenido haga referencia a fechas o hitos |
 | `HOUSE.md` | Características de la vivienda, decisiones de diseño | Posts sobre proceso real, decisiones constructivas |
