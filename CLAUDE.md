@@ -61,6 +61,7 @@
 | `editorial/PILARES_32_TWEETS.md` | Banco de 32 tweets organizados por pilar |
 | `knowledge/CONTENT_PILLARS.md` | Pilares, días, objetivos y límites |
 | `knowledge/CADENCIA.md` | Volumen semanal, Value Gate, horarios óptimos |
+| `knowledge/technical/CTE/README.md` | CTE: mapa, fuentes oficiales y protocolo normativo |
 
 ### Datos del proyecto
 | Archivo | Para qué |

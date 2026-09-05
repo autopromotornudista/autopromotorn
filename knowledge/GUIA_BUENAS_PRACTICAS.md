@@ -29,7 +29,7 @@ autopromotorn/
 │   ├── VALIDATED_CONTEXT_*.md ← fuente de verdad del protagonista (solo el más reciente es activo)
 │   ├── FINANCES.md, MORTGAGE.md, INVESTMENTS.md, HOUSE.md, TIMELINE.md, PROJECT.md
 │   ├── CONTENT_PILLARS.md, CADENCIA.md, EDITORIAL_RULES.md, STRATEGY.md, AUDIENCE.md
-│   └── technical/             ← changelog de obra, preguntas técnicas abiertas, solicitudes de docs
+│   └── technical/             ← CTE, changelog de obra, preguntas técnicas y solicitudes de docs
 │
 ├── editorial/                 ← metodología creativa (voz, formatos, hooks, marcos)
 │   ├── VOICE.md               ← tono, estilo, ejemplos, lo que nunca hacer
@@ -100,6 +100,7 @@ autopromotorn/
 
 | Qué | Dónde | Cuándo mover al siguiente estadio |
 |---|---|---|
+| Referencia normativa oficial | `knowledge/technical/{norma}/` | Tras verificar vigencia, fuente y alcance |
 | Fuente externa procesada | `sources/{tipo}/` | Tras ejecutar HARVESTER |
 | Idea extraída de fuente | `content/ideas/` | Tras /ideas o FORUM_SCOUT |
 | Borrador en evaluación | `content/drafts/` | Tras /write + /review |

@@ -150,6 +150,21 @@ Esta información existe en los archivos internos y puedo usarla para consultas 
 
 ---
 
+## Protocolo CTE y normativa
+
+Cuando una consulta incluya normativa:
+
+1. Leer `knowledge/technical/CTE/README.md`.
+2. Identificar DB y ámbito de aplicación.
+3. Verificar en BOE o portal oficial toda cifra u obligación.
+4. Separar `CTE_MINIMUM`, `PROJECT_SOLUTION` y `OWNER_DECISION`.
+5. Citar documento, apartado, URL y fecha.
+6. No certificar cumplimiento ni extrapolar el proyecto propio.
+
+Comentarios y guías ayudan a interpretar, pero no sustituyen al texto reglamentario. Puede aplicar normativa autonómica, municipal y sectorial.
+
+---
+
 ## Integración con otros agentes
 
 ### Activación automática (triggers)

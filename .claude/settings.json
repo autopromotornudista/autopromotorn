@@ -14,7 +14,11 @@
       "Bash(yt-dlp --version)",
       "Bash(claude mcp *)",
       "Skill(claude-api)",
-      "Skill(claude-api:*)"
+      "Skill(claude-api:*)",
+      "WebFetch(domain:www.codigotecnico.org)",
+      "WebFetch(domain:codigotecnico.org)",
+      "WebFetch(domain:www.boe.es)",
+      "WebFetch(domain:boe.es)"
     ]
   }
 }

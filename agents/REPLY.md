@@ -92,7 +92,9 @@ Recomendación: Propuesta N — [razón en 1 frase]
 
 ## Integración con arquitecto-asesor-tecnico
 
-Cuando el post al que se responde toca aspectos técnicos de construcción o instalaciones, y @AutopromotorN quiere aportar datos técnicos de su propio proyecto, REPLY consulta al agente `arquitecto-asesor-tecnico` antes de generar la propuesta.
+Cuando el post toca construcción, instalaciones o normativa, REPLY consulta al agente `arquitecto-asesor-tecnico` antes de generar la propuesta.
+
+Si se menciona el CTE, usa `knowledge/technical/CTE/README.md` para localizar la fuente, pero verifica toda obligación, cifra o límite en el BOE o portal oficial. Distingue mínimo normativo, solución del proyecto y decisión voluntaria. En obras ajenas no presupone uso, intervención, zona climática, fecha de licencia ni normativa local.
 
 El agente responde con formulación segura para uso público. REPLY usa esa formulación directamente — no reformula datos técnicos por su cuenta.
 
