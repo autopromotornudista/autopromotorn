@@ -17,7 +17,7 @@ Antes de empezar, lee `/home/pineapple/proyectos/autopromotorn/CLAUDE.md` para t
 
 **Opción A — Twitter MCP** (si no hay rate limiting): usa `mcp__twitterapi-mcp__get_user_tweets` y `search_tweets` para las cuentas y temas de abajo.
 
-**Opción B — Grok** (cuando haya rate limiting o para búsqueda más precisa): pide al usuario que consulte a Grok con preguntas concretas. Ejemplo: *"¿Qué ha publicado @HoolInvestor en las últimas 24h? Dame el texto y la hora."* Es la forma más fiable de obtener tweets recientes del nicho.
+**Opción B — Grok** (cuando haya rate limiting o para búsqueda más precisa): pide al usuario que consulte a Grok con búsquedas por tema. Ejemplo: *"Busca en X tweets de las últimas 24h sobre 'hipoteca autopromotor' y 'broker hipotecas'. Dame el texto, el usuario y la hora de los más interesantes."* Priorizar los grupos de mayor ventaja diferencial: tramitación hipotecaria y proceso de construcción.
 
 Busca en este orden de prioridad:
 
@@ -38,14 +38,52 @@ Busca en este orden de prioridad:
 - @HazloSimple_ (~900 seg.) — inversión y finanzas personales
 - @viarentable (~760 seg.) — economía práctica, inmobiliario
 
-**Búsquedas por tema:**
+**Búsquedas por tema** (priorizar en este orden):
+
+*Proceso y decisiones de construcción* — experiencia directa:
 - "autopromoción vivienda"
+- "autopromotor"
+- "construir casa propia"
+- "solar vs piso"
+- "gremios construcción"
+- "licencia obras"
+- "arquitecto técnico aparejador"
+- "certificado energético obra nueva"
+
+*Hipoteca: estudio y tramitación* — máxima ventaja diferencial:
 - "hipoteca autopromotor"
-- "construir casa España"
-- "precio construcción 2026"
+- "hipoteca autopromoción"
+- "broker hipotecas"
+- "negociar hipoteca banco"
+- "tasación vivienda"
+- "FEIN FIAE"
+- "notario hipoteca"
+- "vinculaciones hipoteca"
+- "seguro vida hipoteca banco"
+- "TAE vs TIN hipoteca"
+- "periodo reflexión hipoteca"
+- "comisión apertura hipoteca"
+- "hipoteca fija variable"
+- "euríbor 2026"
+
+*Costes y presupuesto* — tienes números reales:
+- "precio m2 construcción"
+- "coste construir casa"
+- "presupuesto obra"
+- "IVA construcción"
+- "reformas vs obra nueva"
+
+*Inversión + vivienda* — el cruce fondos/hipoteca que has vivido:
+- "amortizar hipoteca o invertir"
 - "fondos indexados hipoteca"
-- "ahorrar para casa"
-- "primera vivienda España"
+- "vivienda vs alquiler inversión"
+- "fondo monetario colchon"
+
+*Emociones y vida real* — engagement humano:
+- "estrés comprar casa"
+- "burocracia España vivienda"
+- "alquiler caro España"
+- "primera vivienda agobio"
 
 Filtra por tweets de las últimas 24-48h con al menos alguna interacción. Descarta tweets sin respuestas o de cuentas sin relevancia en el nicho.
 
@@ -59,27 +97,33 @@ Elige 5-10 tweets que cumplan:
 
 ### 3. Generar los replies
 
-Para cada tweet seleccionado, escribe un reply siguiendo esta fórmula:
+Para cada tweet seleccionado, escribe un reply que aporte conocimiento o valor real sobre el tema. El caso personal es un recurso opcional, no el eje obligatorio de cada reply.
 
 **Fórmula base:**
-> [Conexión genuina con lo que dice] → [Mi experiencia real / dato concreto de mi caso] → [Aporte o pregunta]
+> [Dato, matiz o perspectiva que enriquece el tema] → [Contexto o razón por qué importa] → [Pregunta o CTA opcional]
+
+**Cuándo usar el caso personal:**
+Úsalo solo cuando el dato propio sea el argumento más fuerte disponible o cuando aporte una dimensión que no está en el tweet original. No forzarlo si hay una forma más directa de aportar valor.
 
 **Principios:**
-- Habla siempre desde la experiencia propia ("nosotros hicimos...", "en nuestro caso...")
-- Usa datos reales del proyecto cuando sean relevantes (410.000€, 2,05% TIN, 5 años, etc.)
-- Sé específico, nunca genérico — "yo también" no aporta nada
+- El objetivo principal es aportar conocimiento útil al lector, no demostrar que "nosotros también lo vivimos"
+- Cuando uses el caso personal, que sea como evidencia concreta, no como protagonismo
+- Sé específico, nunca genérico — "interesante punto" no aporta nada
 - Frases cortas, tono conversacional, como hablando con alguien en persona
 - Sin hashtags (excepto #buildinpublic o #hipotecas si viene muy a cuento)
 - Sin nombres de empresas
-- Sin consejos del tipo "deberías hacer X" — siempre "nosotros hicimos X"
 - Máximo 2-3 frases si no hay mucho que decir; un reply corto y bueno supera a uno largo y genérico
 
-**Ejemplo de reply de calidad:**
+**Ejemplo de reply de calidad (sin caso personal):**
 > Tweet original: "¿Vale la pena usar un broker para la hipoteca?"
-> Reply: "En nuestro caso sí. Sin broker nos ofrecían 2,45%. Con broker cerramos a 2,05%. La diferencia en 30 años son miles de euros. Depende mucho de cuánto tiempo tengas para negociar tú solo."
+> Reply: "Depende de tu perfil financiero y del tiempo que tengas para negociar. Para autopromoción especialmente: los bancos tienen productos distintos para este caso y muchos ni los publicitan. Un broker que conozca ese nicho marca la diferencia."
+
+**Ejemplo de reply de calidad (con caso personal como evidencia):**
+> Tweet original: "¿Vale la pena usar un broker para la hipoteca?"
+> Reply: "Para autopromoción, sí. Los bancos tienen productos distintos y pocos los publicitan. En nuestro caso la diferencia fue de 0,40 puntos en el TIN — que en 25 años son miles de euros."
 
 **Ejemplo de reply a evitar:**
-> "Totalmente de acuerdo, los brokers son muy útiles. ¡Suerte con tu hipoteca!"
+> "En nuestro caso sí. Sin broker nos ofrecían 2,45%. Con broker cerramos a 2,05%." *(el caso propio como único argumento, sin conocimiento transferible)*
 
 ### 4. Presentar al usuario
 

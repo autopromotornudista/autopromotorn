@@ -35,5 +35,5 @@ Core philosophy: **conversation over broadcasting**. Replies are ~27× more valu
 
 - Agent drafts posts/replies — humans execute live engagement
 - No auto-reply spam, no coordinated amplification
-- Analytics from native X tools only — never fabricated
+- Analytics from Buffer MCP (`list_posts` con `includeMetrics: true`, `get_aggregated_post_metrics`) o herramientas nativas de X — nunca fabricados
 - Negative/combative content gets throttled by algorithm — stay constructive

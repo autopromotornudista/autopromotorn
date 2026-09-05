@@ -17,7 +17,7 @@ source_type: human_approved
 | Coste adquisición parcela | 15.000 € (fondos propios, abril 2021) |
 | Valor de mercado parcela | ~40.000 € |
 | Eficiencia energética | Clase A |
-| Sistema constructivo | Hormigón celular (Ytong) |
+| Sistema constructivo | Hormigón armado HA-30 |
 
 > La ubicación exacta (municipio y dirección) es información privada. Usar únicamente "Galicia" en contenido editorial.
 > Comunicación pública recomendada: "aprox. 1.579 m² de parcela neta".

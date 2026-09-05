@@ -113,6 +113,47 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
 
 ---
 
+- id: SRC-005
+  name: Montse Cespedosa — THE GOSSIP BANKER
+  author: Montse Cespedosa
+  channel_name: THE GOSSIP BANKER
+  channel_url: https://www.youtube.com/@montsecespedosa
+  channel_id: UCq5Usi51KkNlxDlkju9feCg
+  metadata_status: confirmed
+  possible_match: SRC-003 (confirmar si tqjs5D5-9DQ es también de este canal)
+  type: youtube
+  frequency: daily (cadencia muy alta — publica casi cada día)
+  priority: high
+  active: true
+  last_processed: 2026-09-05
+  ideas_generated: 9
+  ideas_published: 0
+  ideas_high_performance: 0
+  yield_score: null
+  source_score_mvp: 6
+  score_breakdown: "relevancia 3/3 · originalidad 1/2 · trazabilidad 2/2"
+  notes: "Broker hipotecaria española con 27 años de experiencia bancaria. Mezcla Shorts diarios (60-180 palabras) con directos largos (>4.000 palabras) de alto valor. Los Shorts son datos de mercado en tiempo real. Los directos contienen frameworks hipotecarios profundos. Canal muy frecuente — procesar semanalmente filtrando solo vídeos con transcripción >300 palabras o dato verificable relevante. FACTs siempre con needs_verification: true."
+  harvest_log:
+    - date: 2026-09-05
+      video: "LOS BANCOS SE APROVECHAN | Errores Comunes en Hipotecas"
+      url: https://www.youtube.com/watch?v=Ixrc38_0wRo
+      transcript: sources/youtube/2026-09-05-Ixrc38_0wRo.md
+      ideas_saved: [IDEA-VID-004, IDEA-VID-005, IDEA-VID-006]
+      ideas_discarded: ["FEIN/segundo acto notarial — ya publicado 21 ago", "contrato de arras — no aplica a autopromoción", "seguro prima única — sin experiencia propia validada"]
+      draft_generated: draft-trampa-hipoteca-fija-tipos-altos-2026-09-05.md
+      critic_status: PASS (v2)
+    - date: 2026-09-05
+      videos_processed: 5
+      period: 2026-08-29 a 2026-09-04
+      transcripts:
+        - sources/youtube/2026-09-05-xKjGJSOJwsw.md  # URGENTE CAMBIOS ÚLTIMA HORA EN HIPOTECAS (directo, 4.319 palabras)
+        - sources/youtube/2026-09-05-FBOBnGPRgQM.md  # TE LA VAN A LIAR CON LA HIPOTECA ESTE SEPTIEMBRE (Short)
+        - sources/youtube/2026-09-05-s9vF3ZWFi00.md  # Hipotecas y Tarjetas Revolving en 2008 (clip histórico)
+        - sources/youtube/2026-09-05-cj5wK3g_Wwg.md  # Si vas a pedir una hipoteca (Short)
+        - sources/youtube/2026-09-05-Bj-qUmEtZ54.md  # Cae el precio de la vivienda en Madrid (Short)
+      ideas_saved: [IDEA-VID-007, IDEA-VID-008, IDEA-VID-009, IDEA-VID-010, IDEA-VID-011, IDEA-VID-012]
+      ideas_discarded: []
+
 - id: SRC-004
   name: SoloArquitectura — Subforo Promotores y Autopromotores
   author: comunidad (foro público)

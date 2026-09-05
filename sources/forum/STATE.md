@@ -1,10 +1,10 @@
 ---
 source: soloarquitectura.com
 rss_url: https://www.soloarquitectura.com/foros/forums/promotores-y-autopromotores.45/index.rss
-last_run: 2026-09-01
-last_rss_entry_id: urn:xenforo:thread:129675
-last_processed_date: 2026-09-01
-total_threads_seen: 20
+last_run: 2026-09-05
+last_rss_entry_id: urn:xenforo:thread:129733
+last_processed_date: 2026-09-05
+total_threads_seen: 21
 total_insights_generated: 5
 total_drafts_generated: 3
 robots_verified: true
@@ -45,6 +45,10 @@ Archivo de estado entre ejecuciones de `/forum-scout`. No editar manualmente sal
 | 129412 | https://www.soloarquitectura.com/foros/threads/calidad-de-acabado-de-sate-en-vivienda-unifamiliar.129412/ | 2026-09-01 | 15 | sate-calidad-acabado | archived |
 | 129568 | https://www.soloarquitectura.com/foros/threads/producto-incoloro-para-impermeabilizacion-de-terraza-exterior.129568/ | 2026-09-01 | 12 | impermeabilizacion-terraza | archived |
 | 129588 | https://www.soloarquitectura.com/foros/threads/advertencia-sobre-el-icio-y-el-pem.129588/ | 2026-09-01 | 65 | icio-pem-reclamacion-municipal | insight_created:FORUM-20260901-005 |
+
+| 129733 | https://www.soloarquitectura.com/foros/threads/casa-cuadrada-bcn-empieza-la-fiesta.129733/ | 2026-09-05 | 57 | inflacion-costes-construccion-m2 | archived:monitor |
+| 128749 | (ya procesado) | 2026-09-03 | — | nueva actividad p.25+ inaccesible | updated:no_new_insight |
+| 125865 | (ya procesado) | 2026-09-05 | — | nueva actividad p.final inaccesible | updated:no_new_insight |
 
 <!-- FORUM_SCOUT añade filas aquí automáticamente -->
 <!-- status: archived | insight_created:[FORUM-ID] | duplicate:[FORUM-ID] | unavailable | error -->

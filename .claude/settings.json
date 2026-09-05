@@ -18,7 +18,8 @@
       "WebFetch(domain:www.codigotecnico.org)",
       "WebFetch(domain:codigotecnico.org)",
       "WebFetch(domain:www.boe.es)",
-      "WebFetch(domain:boe.es)"
+      "WebFetch(domain:boe.es)",
+      "mcp__buffer__list_ideas"
     ]
   }
 }

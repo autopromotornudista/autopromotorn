@@ -13,11 +13,13 @@ Los desgloses detallados por partida se incorporarán únicamente cuando hayan s
 
 ## Fuente canónica en tiempo real
 
-**Google Sheets (acceso público, vista):**
-https://docs.google.com/spreadsheets/d/1DtdPunMajOnwGxM5OXCcZ8HFdLrESFlNE-MKlXG8TUo/edit?usp=sharing
+**Google Drive — "Estimacion Gastos Casa" (hoja de cálculo):**
+fileId: `1DtdPunMajOnwGxM5OXCcZ8HFdLrESFlNE-MKlXG8TUo`
+Accesible via MCP Google Drive (`read_file_content`). Tres columnas: **Estimado / Real (contratado) / Pagado**.
 
-Usar para consultar datos actualizados. Tres columnas: **Estimado / Real (contratado) / Pagado**.
-Cuando el dato de Sheets difiera de este archivo, prevalece Sheets.
+> **Este archivo (FINANCES.md) es contexto narrativo y editorial — no una fuente de números.**
+> Para cualquier cifra concreta, leer la hoja de Drive en tiempo real. Los datos de Drive prevalecen siempre sobre los de este archivo.
+> Acceso a Drive es **solo lectura**: prohibido crear, modificar o eliminar archivos.
 
 ---
 
