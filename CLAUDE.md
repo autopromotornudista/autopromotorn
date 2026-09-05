@@ -6,13 +6,13 @@
 - **Nombre:** Autopromotor Nudista
 - **Bio:** "Viajando en pañales… mostrarlo todo en tiempo real"
 - **Concepto:** build-in-public auténtico sobre autopromoción de vivienda en España
-- **Email:** javidopazo@gmail.com
+- **Email:** autopromotornudista@gmail.com
 
 ## Propuesta de valor única
 
 Una de las cuentas más honestas del nicho de construcción/vivienda y finanzas personales en español. No vende humo ni promesas: muestra números reales, retrasos, sorpresas de precio, rentabilidades reales y lecciones aprendidas en tiempo real. Transparencia radical + vulnerabilidad como ventaja competitiva.
 
-**Ángulo único que ninguna cuenta puede replicar:** gestionar simultáneamente una hipoteca de autopromoción a 30 años, una cartera de inversión real (fondos indexados, monetarios, Bitcoin) y un proyecto de construcción de 410.000 €. El conflicto financiero en tiempo real entre ladrillo y mercados es el contenido que diferencia la cuenta de cualquier influencer de finanzas personales puro.
+**Ángulo único que ninguna cuenta puede replicar:** gestionar simultáneamente una hipoteca de autopromoción a 30 años, una cartera de inversión real (fondos indexados, monetarios, Bitcoin) y un proyecto de construcción de 400.000 €. El conflicto financiero en tiempo real entre ladrillo y mercados es el contenido que diferencia la cuenta de cualquier influencer de finanzas personales puro.
 
 ## Principio editorial — Skin in the game
 
@@ -43,7 +43,7 @@ Una de las cuentas más honestas del nicho de construcción/vivienda y finanzas 
 - Seguidores: ~195
 - Tiempo disponible: 30-60 min/día
 - Cuenta X Pro activa
-- Buffer (plan gratuito) conectado via MCP
+- Buffer (plan de pago) conectado via MCP
 - Proceso de construcción en curso (añadir estado actual aquí cuando se conozca)
 
 ## Documentos de referencia

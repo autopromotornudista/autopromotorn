@@ -1,7 +1,7 @@
 ---
 status: approved
 visibility: editorial
-last_updated: 2026-08-31
+last_updated: 2026-09-05
 source_type: human_approved
 ---
 
@@ -10,6 +10,14 @@ source_type: human_approved
 Solo contiene cifras de alto nivel aprobadas explícitamente como editoriales.
 
 Los desgloses detallados por partida se incorporarán únicamente cuando hayan sido utilizados públicamente o aprobados de forma explícita.
+
+## Fuente canónica en tiempo real
+
+**Google Sheets (acceso público, vista):**
+https://docs.google.com/spreadsheets/d/1DtdPunMajOnwGxM5OXCcZ8HFdLrESFlNE-MKlXG8TUo/edit?usp=sharing
+
+Usar para consultar datos actualizados. Tres columnas: **Estimado / Real (contratado) / Pagado**.
+Cuando el dato de Sheets difiera de este archivo, prevalece Sheets.
 
 ---
 
@@ -116,6 +124,31 @@ El plan de inversión familiar lleva años activo y ha continuado durante la pla
 La estrategia actual —estructura de cartera, decisiones sobre aportaciones y relación con la hipoteca— vive en `knowledge/INVESTMENTS.md`.
 
 Los importes de aportaciones mensuales no son datos canónicos en este archivo.
+
+---
+
+## Estado de pagos (septiembre 2026)
+
+| Concepto | Importe |
+|----------|---------|
+| Total real (contratado + estimado) | ~410.000 € |
+| Pagado hasta hoy | ~37.800 € |
+| Pendiente | ~372.800 € |
+
+El 91% del presupuesto está pendiente — la mayor parte es construcción, que se paga por disposiciones de hipoteca conforme avanza la obra.
+
+Editorial: útil para mostrar que autopromoción no requiere disponer del total desde el primer día.
+
+## Naturaleza de cada categoría
+
+| Categoría | Estado real |
+|-----------|------------|
+| Parcela | Pagado |
+| Proyecto y técnicos | Parcialmente pagado (primeros pagos realizados) |
+| Construcción (gremios) | Contratado — pendiente de pago por disposiciones |
+| Equipamiento (~36.000 €) | **Estimación abierta** — no contratado. Se adaptará a la liquidez disponible al final de la obra. Incluye: cocina, electrodomésticos, mobiliario salón/comedor/dormitorios, colchones, TV, recibidor, lavandería. |
+| Gastos hipoteca | Parcialmente pagado |
+| Gastos varios | Casi íntegro pagado |
 
 ---
 
