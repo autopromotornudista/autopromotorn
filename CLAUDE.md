@@ -1,4 +1,4 @@
-# Autopromotor Nudista — Briefing de cuenta @autopromotorn
+# Autopromotor Nudista — @autopromotorn
 
 ## Identidad
 
@@ -8,224 +8,87 @@
 - **Concepto:** build-in-public auténtico sobre autopromoción de vivienda en España
 - **Email:** autopromotornudista@gmail.com
 
-## Propuesta de valor única
-
-Una de las cuentas más honestas del nicho de construcción/vivienda y finanzas personales en español. No vende humo ni promesas: muestra números reales, retrasos, sorpresas de precio, rentabilidades reales y lecciones aprendidas en tiempo real. Transparencia radical + vulnerabilidad como ventaja competitiva.
-
-**Ángulo único que ninguna cuenta puede replicar:** gestionar simultáneamente una hipoteca de autopromoción a 30 años, una cartera de inversión real (fondos indexados, monetarios, Bitcoin) y un proyecto de construcción de 400.000 €. El conflicto financiero en tiempo real entre ladrillo y mercados es el contenido que diferencia la cuenta de cualquier influencer de finanzas personales puro.
+---
 
 ## Principio editorial — Skin in the game
 
 **Todo el contenido se escribe desde la experiencia propia vivida. Sin excepción.**
 
-- Cada tweet parte de "yo hice esto" o "a mí me pasó esto", nunca de "deberías hacer esto"
+- Cada tweet parte de "nosotros hicimos esto" o "a nosotros nos pasó esto" — nunca de "deberías hacer esto"
 - Los números son siempre los números reales del proyecto (no cálculos teóricos)
 - El consejo llega DESPUÉS de contar la experiencia, no antes
-- La ventaja competitiva frente a otras cuentas del nicho es exactamente esta: piel en el juego real
 
-**Fórmula base de todo post:**
-> [Situación real propia] → [Dato concreto de mi caso] → [Lo que aprendí / ahorré / conseguí] → [Pregunta o CTA]
+**Fórmula base:** `[Situación real propia] → [Dato concreto] → [Lo que aprendimos] → [Pregunta o CTA]`
 
-**Framing correcto:** "Firmé mi hipoteca a 2,05%. Así lo conseguí."
-**Framing incorrecto:** "Así deberías negociar tu hipoteca."
-
-## Tono de comunicación
-
-- **Educativo + datos:** predominan cifras concretas (€/m², %, tasaciones, años de sueldo)
-- **Transparente y vulnerable:** habla de estimaciones que fallan, partidas que se encarecen, errores propios
-- **Humor sarcástico ligero:** emojis moderados, frases irónicas ("Eso también es una forma de empobrecimiento")
-- **Conversacional y directo:** frases cortas, sin florituras, como hablando con un amigo
-- **Práctico:** casi todo el contenido tiene utilidad para otros aspirantes a autopromotores
-- **NUNCA:** corporativo, vendedor, genérico, vago
-
-## Situación actual (agosto 2026)
-
-- Seguidores: ~195
-- Tiempo disponible: 30-60 min/día
-- Cuenta X Pro activa
-- Buffer (plan de pago) conectado via MCP
-- Proceso de construcción en curso (añadir estado actual aquí cuando se conozca)
-
-## Documentos de referencia
-
-Todos los documentos están en `./docs/`. Antes de generar cualquier contenido sobre costes, hipoteca o proceso, leer los documentos relevantes para usar datos reales.
-
-```
-docs/
-├── contexto-ia/                   ← LEER PRIMERO — resúmenes interactivos del proyecto
-│   ├── resumen_proyecto_y_situacion_financiera.html  ← informe ejecutivo completo
-│   └── casa_abelar_dossier.html   ← dossier hipotecario interactivo
-├── finanzas/
-│   └── Estimacion Gastos Casa.xlsx  ← estimación detallada de costes
-├── tasacion/                      ← informe de tasación oficial (C014062299W26, I014062299W26)
-├── hipoteca/
-│   ├── guia_definitiva_hipoteca_autopromotor.md  ← FUENTE PRINCIPAL de contenido — experiencia real completa
-│   └── Hipoteca Unicaja/          ← documentos oficiales Unicaja
-├── fotos-reales/                  ← fotos reales del terreno/obra (actualizar cada semana)
-├── renders/                       ← imágenes del proyecto para posts visuales
-├── diario-obra.md                 ← LEER ANTES del contenido de jueves — estado actual de la obra
-└── Proxecto Vivenda O Abelar/     ← proyecto arquitectónico completo (planos, memorias)
-```
-
-## Los 4 pilares de contenido
-
-Mix semanal validado por datos (Grok, agosto 2026): **40-50% dato+foto · 25-30% hilos · 15-20% opinión+pregunta**
-
-### 1. 💶 Números & Finanzas (prioridad 1 — más guardados y autoridad)
-Costes €/m², tasaciones, hipotecas, comparativas históricas, presupuestos reales. **Y también:** fondos indexados, fondos monetarios, Bitcoin, patrimonio total, rentabilidades reales, el dilema inversión vs. amortización anticipada.
-- Objetivo: autoridad + valor práctico (genera muchos guardados)
-- Formato estrella: **tweet de dato único + foto** → hilo explicativo
-- Día en calendario: **miércoles**
-- Temas de inversión con skin-in-the-game real: importes invertidos, rentabilidad real obtenida, desnudo de patrimonio completo (inversiones + casa + hipoteca pendiente)
-- Ángulo diferencial: el conflicto real entre invertir en mercados vs. amortizar hipoteca vs. meter dinero en la obra
-
-### 2. 🏗️ Proceso Real (prioridad 2 — autenticidad y retención)
-Documentación en tiempo real: obra, decisiones, retrasos, fotos, "qué está pasando esta semana".
-- Objetivo: autenticidad + retención de audiencia
-- Formato estrella: **tweet con foto real** (para el scroll con imagen)
-- Día en calendario: **jueves**
-
-### 3. 💡 Lecciones & Tips (prioridad 3 — picos de seguidores)
-Errores a evitar, consejos de bancos/constructores, checklists, "lo que ojalá hubiera sabido".
-- Objetivo: utilidad + guardados + nuevos seguidores
-- Formato estrella: **hilo 5-8 tweets** (no más de 10)
-- Día en calendario: **sábado** (máximo alcance en fin de semana)
-
-### 4. 🧠 Reflexiones & Contexto (prioridad 4 — debate y diferenciación)
-Vivienda como empobrecimiento, mercado inmobiliario, mentalidad, timing, inflación, sociedad.
-- Objetivo: diferenciación de voz + engagement emocional + debate
-- Formato estrella: **opinión contundente + pregunta abierta** (replies valen 27× un like)
-- Día en calendario: **lunes**
-
-### 5. 👨‍👧‍👦 Familia & Vida Real (pilar semanal — humanización)
-Anécdotas, trucos, reflexiones y opiniones sobre criar hijos. Puede estar vinculado al proyecto de construcción o ser contenido de paternidad general (hábitos, educación, decisiones de padre).
-- Objetivo: humanizar la cuenta + identificación + ampliar nicho a cuentas de paternidad/familia
-- Frecuencia: **2 tweets/semana**
-- Formato estrella: anécdota corta o reflexión ligera, opinión de padre, tip concreto
-- Días en calendario: **sábado 20:00h** (vinculado al proyecto) · **miércoles 20:00h** (paternidad general)
-- Tono: más ligero que el resto, pero siempre desde la experiencia real
-
-## Calendario editorial semanal
-
-Cadencia: **mínimo 7 publicaciones propias / semana, 7 días.** Domingo = pieza principal de la semana. Ver `knowledge/CADENCIA.md` para reglas completas de volumen, Value Gate y horarios.
-
-```
-LUNES     → 🧠 Reflexiones & Contexto     · opinión + pregunta
-MARTES    → 💡 Lecciones & Tips           · hilo 5-8 tweets
-MIÉRCOLES → 💶 Números & Finanzas         · dato + foto
-JUEVES    → 🏗️ Proceso Real               · foto real + texto
-VIERNES   → Flexible (cualquier pilar)
-SÁBADO    → 👨‍👧‍👦 Familia & Vida Real o flexible
-DOMINGO   → Mejor pieza disponible de la semana (prioritario)
-```
-
-Franjas horarias óptimas (datos reales del archivo X, agosto 2026): **18:00 CET** (3× la media de engagement) · **20:00 CET** (segunda opción) · **9:00h** como alternativa matinal
-Evitar: 14:00–17:00 (siesta digital) · después de las 23:00
-
-## Optimización del perfil
-
-El visitante decide si sigue en 3-5 segundos. Elementos por prioridad:
-
-1. **Foto** — cara real, buena iluminación, expresión cercana. Sin logos.
-2. **Bio** — fórmula recomendada:
-   > "Construyo mi casa desde cero y lo muestro todo en tiempo real.
-   > Costes reales, hipotecas de autopromoción y lecciones del proceso. #buildinpublic"
-3. **Tweet fijado** — hilo de alto valor con engagement visible. Temas prioritarios: hipoteca de autopromoción con datos reales, desglose de costes 2026, o lecciones del proceso.
-4. **Banner** — foto real de la obra/terreno, o imagen limpia con texto orientado a valor.
-
-**Regla de oro:** el perfil debe comunicar en un vistazo: *"Esta persona está construyendo su casa de verdad y enseña los números reales."*
+**Correcto:** "Firmamos la hipoteca a 2,05%. Así lo conseguimos."  
+**Incorrecto:** "Así deberías negociar tu hipoteca."
 
 ---
 
-## Regla de hashtags (X 2026)
+## Reglas críticas — siempre activas
 
-Por defecto **0 hashtags**. El algoritmo entiende el contenido semánticamente; 3+ hashtags penalizan el alcance un 30-40%.
-
-| Situación | Hashtag |
-|-----------|---------|
-| 90% de los posts | ninguno |
-| Post de Proceso Real | `#buildinpublic` al final |
-| Post 100% sobre financiación | `#hipotecas` al final |
-| Más de 1 hashtag | **nunca** |
-
-Nunca en medio del texto. Nunca #vivienda, #construcción, #autopromotor ni genéricos.
+1. **Voz plural:** todo el contenido usa "nosotros" — contratamos, decidimos, firmamos. Nunca singular.
+2. **Sin nombres de empresas:** "el constructor", "el banco", "nuestro fondo monetario". Nunca nombres propios.
+3. **Sin datos inventados:** si falta un dato real, preguntar. Nunca estimar ni sustituir con IA.
+4. **Deduplicación obligatoria** — antes de generar contenido revisar en este orden:
+   1. `content/published/`
+   2. `contenido/tweets-publicados.md` (LEGACY)
+   3. `content/ready/` · `content/scheduled/`
+   4. `content/planning/` (READY/SCHEDULED = ya utilizado)
+   5. `content/drafts/`
+5. **LEGACY intocable:** nunca borrar, mover ni modificar `contenido/` sin autorización expresa.
+6. **Al reorganizar archivos:** leer `knowledge/GUIA_BUENAS_PRACTICAS.md` antes de actuar.
 
 ---
-
-## Estrategia de crecimiento (X 2026)
-
-### Señales del algoritmo (pesos reales, fuente: código open-source xAI)
-
-| Señal | Peso relativo |
-|-------|--------------|
-| Reply + **el autor responde** | ~150× un like — la señal más fuerte |
-| Reply normal | ~27× un like |
-| Clic en perfil + engagement | ~12-24× |
-| Bookmark | ~10-20× |
-| Repost / Quote | ~2-20× |
-| Like | 1× (baseline) |
-| Mute / Block / "Not interested" | −74× a −369× — destruye el alcance |
-
-### Reglas de acción
-
-- **Responder a los primeros comentarios en los primeros 30-60 min** — activa la señal de 150× y rompe el cold start
-- **Regla 70/30:** 70% del tiempo en replies a cuentas grandes del nicho, 30% en contenido propio
-- **Objetivo diario:** 10-15 replies de calidad en cuentas con 2-10× más seguidores
-- **Engagement manual siempre** — no automatizar replies (riesgo de suspensión)
-- **Nunca enlaces externos en el post principal** — penalizan el alcance directamente; si hay que enlazar, añadirlos en un reply propio
-
-## Cuentas objetivo para engagement
-
-Prioridad alta (nicho directo, datos de Grok agosto 2026):
-- **@Hipotelab** (~2.200 seg.) — broker hipotecas, consejos prácticos de financiación
-- **@MarcosBL** (~9.200 seg.) — promotor build-in-public, actualizaciones de promociones
-
-Nichos secundarios (buscar cuentas con 2-10x seguidores actuales):
-- Arquitectura y construcción en España
-- Mercado inmobiliario español
-- Finanzas personales e hipotecas
-- Independencia financiera / ahorro
-- Urbanismo y política de vivienda en España
 
 ## Herramientas conectadas
 
-- **Buffer MCP:** `claude mcp add --transport http buffer https://mcp.buffer.com/mcp` — para programar tweets
-- **XMCP (pendiente):** `https://api.x.com/mcp` — para leer nicho y buscar conversaciones (requiere developer account)
-- **Skill /marketing:** skill personalizado para generar contenido en el tono de la cuenta
-
-## Historial de contenido y fuentes editoriales
-
-Ver `content/published/` para historial canónico de publicaciones.  
-Ver `contenido/tweets-publicados.md` (LEGACY) — fuente de deduplicación histórica, conservar intacto.  
-Ver `editorial/VOICE.md` para voz, tono y reglas de estilo — **leer antes de escribir cualquier tweet**.  
-Ver `editorial/FORMATS.md` para los formatos narrativos (historia de terceros, desnudo financiero, error propio, contraste).  
-Ver `editorial/PILARES_32_TWEETS.md` para la biblioteca de 32 tweets organizados en 8 pilares.  
-Ver `editorial/BIBLIOTECA_INTELECTUAL_AUTOPROMOTORN_V2.md` para marcos conceptuales y ángulos.  
-Ver `content/planning/` para candidatos de contenido por periodo (no mezclados con published/).  
-Ver `docs/analisis-contenido-historico.md` para temas ya tratados, formatos y timing validado.
+- **Buffer MCP** — programar tweets: `claude mcp add --transport http buffer https://mcp.buffer.com/mcp`
+- **XMCP** (pendiente) — leer nicho en X: requiere developer account
 
 ---
 
-## Content OS — Arquitectura
+## NAVEGACIÓN — cuándo leer cada archivo
 
-### Sistema canónico de borradores
-- **CANÓNICO:** `content/drafts/` — todo nuevo borrador se guarda y consulta aquí
-- **LEGACY:** `contenido/borradores/` — conservar intacto, no modificar sin autorización expresa
+### Escribir contenido
+| Archivo | Para qué |
+|---------|---------|
+| `knowledge/VALIDATED_CONTEXT_2026-08-31.md` | **Siempre primero** — fuente de verdad del proyecto |
+| `editorial/VOICE.md` | Tono, estilo, lo que nunca hacer |
+| `editorial/FORMATS.md` | Los 4 formatos narrativos (contraste, desnudo, error, historia) |
+| `editorial/HOOKS.md` | Fórmulas de apertura |
+| `editorial/ANGLES.md` | Ángulos para generar ideas |
+| `editorial/PILARES_32_TWEETS.md` | Banco de 32 tweets organizados por pilar |
+| `knowledge/CONTENT_PILLARS.md` | Pilares, días, objetivos y límites |
+| `knowledge/CADENCIA.md` | Volumen semanal, Value Gate, horarios óptimos |
 
-### Biblioteca de pilares
-- **CANÓNICA:** `editorial/PILARES_32_TWEETS.md`
-- **LEGACY:** `contenido/biblioteca-8-pilares-32-tweets.md` — conservar intacto, no modificar sin autorización expresa
+### Datos del proyecto
+| Archivo | Para qué |
+|---------|---------|
+| `knowledge/FINANCES.md` | Costes, partidas, presupuesto |
+| `knowledge/MORTGAGE.md` | Hipoteca, condiciones, proceso |
+| `knowledge/INVESTMENTS.md` | Cartera, relación hipoteca/inversión |
+| `knowledge/HOUSE.md` | Vivienda, decisiones de diseño |
+| `knowledge/TIMELINE.md` | Cronología oficial del proyecto |
+| `knowledge/PROJECT.md` | Identidad, posicionamiento, situación actual |
+| `docs/diario-obra.md` | Estado actual de la obra — leer antes del contenido de jueves |
+| `docs/hipoteca/guia_definitiva_hipoteca_autopromotor.md` | Experiencia hipotecaria completa |
 
-### Deduplicación — fuentes a revisar SIEMPRE antes de generar contenido nuevo
-En este orden:
-1. `content/published/`
-2. `contenido/tweets-publicados.md`
-3. `content/ready/`
-4. `content/scheduled/`
-5. `content/planning/SEPTIEMBRE_2026_CANDIDATOS.md` — contenido READY/SCHEDULED = ya utilizado, no repetir
-6. `content/drafts/`
+### Hacer replies
+| Archivo | Para qué |
+|---------|---------|
+| `editorial/REPLIES.md` | Protocolo de sesión de replies |
+| `knowledge/STRATEGY.md` | Señales del algoritmo, cuentas objetivo, regla 70/30 |
 
-Evitar repetir: misma experiencia · mismo marco · mismo hook · misma conclusión · mismo dato con enfoque demasiado similar.
+### Planificar semana
+| Archivo | Para qué |
+|---------|---------|
+| `content/planning/` | Candidatos de contenido por periodo |
+| `content/scheduled/` · `content/ready/` | Ver qué está programado o listo |
 
-### Regla de conservación de archivos LEGACY
-**Nunca borrar, sobrescribir, mover ni consolidar archivos LEGACY sin autorización expresa del usuario.**
+### Gobierno y arquitectura del sistema
+| Archivo | Para qué |
+|---------|---------|
+| `knowledge/README.md` | Arquitectura PRIVATE→KNOWLEDGE→PUBLIC, precedencia de fuentes |
+| `knowledge/EDITORIAL_RULES.md` | Reglas operativas completas de aprobación y publicación |
+| `knowledge/GUIA_BUENAS_PRACTICAS.md` | Naming, dónde va cada archivo, política de eliminación |
