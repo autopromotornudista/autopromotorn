@@ -1,71 +1,25 @@
 ---
-status: draft
-date: 2026-09-05
-pillar: all
-note: Un tweet por cada pilar operativo + uno mixto temático
+status: superseded
+date: 2026-09-08
+superseded_by:
+  - draft-felpudo-2026-09-08.md
+  - draft-410k-efecto-ya-que-estamos-2026-09-08.md
+  - draft-una-sola-television-2026-09-08.md
+review_reason: "El archivo agrupaba seis piezas con estados y riesgos distintos."
 ---
 
-# Draft — 6 tweets, uno por pilar
+# Lote de seis tweets — revisión editorial
 
----
+Este contenedor no debe aprobarse ni programarse como una sola pieza.
 
-## 💶 Números & Finanzas — ángulo A (cubierta)
+## Extraídos
 
-El arquitecto presupuestó la cubierta en 20.703 €.
-Cuando llegamos a contratar: 37.425 €.
-Un 80% más.
+- Felpudo: dato validado y candidato a aprobación.
+- Efecto “ya que estamos”: candidato a aprobación usando ~410.000 €, porque el total es estimado.
+- Una sola televisión: pendiente de confirmación del propietario.
 
-No hubo engaño. El precio de la pizarra subió, los materiales subieron, y el presupuesto técnico nadie lo había actualizado.
-Así funciona la autopromoción en 2026.
+## Retirados
 
----
-
-## 🏗️ Proceso Real — replanteo 26 agosto
-
-26 de agosto de 2026. Arquitecto, aparejador y constructor en la parcela.
-Marcaron el perímetro de la casa en el suelo.
-
-De la compra de la parcela a ese momento: 5 años.
-De la concesión de la licencia a ese momento: 4 meses.
-
-Eso es un replanteo. El primer acto físico real de la obra.
-
----
-
-## 💡 Lecciones & Tips — ángulo T (felpudo)
-
-El constructor nos presupuestó el felpudo de entrada: 480 €.
-Lo compramos nosotros: 90 €.
-
-390 € de diferencia en un felpudo.
-
-La lección no es que el sector infle precios. Es que revisar cada partida, por pequeña que parezca, suma. Y mucho.
-
----
-
-## 🧠 Reflexiones & Contexto — generacional
-
-En 1980, una vivienda media se pagaba en 3 años con un solo sueldo.
-En 2026, con dos salarios necesitamos más de 6 años de ingresos familiares.
-
-No es que seamos peores ahorradores.
-Es que las reglas del juego cambiaron sin que nadie nos avisara.
-
----
-
-## 👨‍👧‍👦 Familia & Vida Real — una sola TV
-
-En la nueva casa habrá una sola televisión.
-En el salón. No en los dormitorios.
-
-No es una decisión de presupuesto. Es una decisión de cómo queremos vivir.
-
----
-
-## Mixto — pilares 7 + 3 (el "ya que estamos")
-
-410.000 € tienen un efecto muy concreto sobre el cerebro:
-5.000 € empiezan a parecer poco dinero.
-
-Cuando llevamos meses tomando decisiones de miles de euros, el "ya que estamos" se vuelve peligroso.
-Es el momento en que más hay que frenar.
+- Cubierta: duplica el hilo de presupuesto y el borrador específico existente.
+- Replanteo: duplica contenido publicado y programado.
+- Comparación 1980–2026: cifras contradictorias y sin fuente primaria validada.
