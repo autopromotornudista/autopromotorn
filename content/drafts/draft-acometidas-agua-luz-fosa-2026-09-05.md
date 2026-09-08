@@ -1,86 +1,81 @@
 ---
 draft_id: draft-acometidas-agua-luz-fosa-2026-09-05
-idea_source: experiencia propia
 pillar: Proceso Real
 format: hilo 5 posts
 value_level: HIGH
-needs_verification: false
-verified_sources:
-  - Drive: Estimacion Gastos Casa.xlsx (agua 586,79€ real / luz 1.500€ pendiente)
-  - Experiencia propia (fosa séptica por falta de capacidad depuradora municipal)
-  - Agente técnico: RD 1955/2000 confirma que acometida eléctrica no se ejecuta sin licencia
-critic_status: PASS (v1)
-critic_date: 2026-09-05
-critic_notes: "14/14. Hook ✓ disruptivo — tensión real desde la primera línea ('solicitamos, pagamos, obra empezó, seguimos esperando'). Skin in the game ✓ — cifras verificadas en Drive (587€ vs 2.000€ estimado), fosa séptica como situación real. Credibilidad ✓. AI slop ✓. Duplicación ✓. Factualidad ✓ — timing expresado como experiencia propia, verificado por agente técnico. Value HIGH (DATA+UTILITY): datos reales de proceso que el lector no encuentra en otros canales. Intransferible de esta cuenta."
-generated: 2026-09-05
 status: draft
-slot_suggested: "Jueves · 08-10h"
+ready_for_human_approval: false
+needs_verification:
+  - "Confirmar el estado de la conexión eléctrica el día de publicación."
+verified_sources:
+  - knowledge/VALIDATED_CONTEXT_2026-08-31.md
+  - knowledge/FINANCES.md
+  - "Confirmación del propietario: suministro definitivo solicitado directamente; monolito instalado; conexión pendiente."
+technical_check: PASSED_WITH_NOTES
+technical_check_date: 2026-09-08
+critic_status: REVISED
+review_notes: "Absorbe el enfoque válido de draft-luz-obra-vs-definitiva. No generaliza la solución elegida."
 ---
 
-# Las acometidas — lo que nadie explica antes de empezar
+# Agua, luz y saneamiento: tres gestiones distintas
 
 ## HILO — 5 posts
 
 **1/**
-Llevamos semanas de obra y todavía no tenemos acometida de luz.
 
-La solicitamos. La pagamos. La obra empezó.
+En nuestra obra no pedimos primero luz provisional.
 
-Seguimos esperando.
+Por recomendación del electricista solicitamos directamente el suministro definitivo, porque en nuestro caso resultaba más económico.
+
+Dos meses después, la conexión seguía pendiente.
 
 ---
 
 **2/**
-Las acometidas son las conexiones que unen tu parcela a las redes externas: agua, luz y saneamiento.
 
-Son una de las primeras gestiones reales de la obra.
+Teníamos la solicitud aceptada y el monolito del contador construido.
 
-Y lo primero que aprendimos: no puedes tramitarlas cuando quieras.
+La obra estaba a punto de empezar.
 
-Necesitas la licencia de obra concedida. Sin ella, la compañía no ejecuta nada.
-
-El reloj empieza el día que tienes el papel, no antes.
+Nosotros habíamos completado nuestra parte, pero el calendario de la conexión ya no dependía de nosotros.
 
 ---
 
 **3/**
-Las nuestras:
 
-· Agua: estimábamos 2.000€ → coste real: 587€. Ya conectada.
+Con el agua ocurrió lo contrario:
 
-· Luz: 1.500€. Solicitada, pagada. Todavía en proceso.
+Previsión: 2.000 €  
+Coste real: 586,79 €
 
-· Saneamiento: la depuradora municipal no tiene capacidad. No hay acometida posible. Instalamos fosa séptica.
+Ya estaba conectada.
+
+Para el saneamiento no había acometida municipal disponible. El proyecto se resolvió mediante una fosa filtrante autorizada, todavía pendiente de ejecutar.
 
 ---
 
 **4/**
-El agua salió mucho más barata de lo previsto.
 
-La luz sigue pendiente semanas después de solicitarla.
+Una parcela. Tres servicios. Tres situaciones distintas:
 
-El saneamiento lo resolvimos de otra forma.
+- Agua conectada y más barata de lo previsto.
+- Electricidad solicitada y pendiente.
+- Saneamiento resuelto dentro del proyecto mediante una instalación propia.
 
-Tres acometidas. Tres procesos distintos. Ninguno sale en los presupuestos de los constructores.
+El presupuesto de la casa no explica por sí solo estos procesos.
 
 ---
 
 **5/**
-En una autopromoción controlas muchas cosas.
 
-Las acometidas no son una de ellas.
+Lo que aprendimos es que “tener licencia” no significa tener todos los suministros listos.
 
-Las puedes solicitar en el momento correcto, pagar, gestionar. Pero los plazos los decide la compañía.
+Cada servicio lleva su documentación, su coste y su calendario.
 
-¿Os ha pasado con la espera de alguna acometida?
+Y la solución que elegimos para la electricidad no tiene por qué servir en todas las obras.
 
----
+¿En qué momento empezasteis a tramitar los suministros?
 
-## Notas editoriales
+## Nota de publicación
 
-- No mencionar nombres de empresas suministradoras (ni UFD ni Espina y Delfín)
-- El coste del agua (587€) es real y verificado en Drive — dato diferencial respecto al estimado (2.000€)
-- La fosa séptica es una situación real, no una elección — framing correcto: "no hay acometida posible"
-- El timing (necesitas licencia antes) está verificado técnicamente — expresar como experiencia propia, no como regla
-- El hilo no menciona coste de la fosa séptica porque no está en el Excel todavía
-- Complementa bien con posts de hipoteca y licencia — ángulo de "lo que nadie te dice antes"
+Actualizar el tiempo verbal y el estado de la electricidad inmediatamente antes de aprobar o programar.

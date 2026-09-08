@@ -1,137 +1,119 @@
 ---
-status: approved
+status: review
 visibility: editorial
-last_updated: 2026-09-05
-source_type: human_approved
+last_updated: 2026-09-08
+source_type: editorial_revision
 ---
 
 # VOICE.md — La voz de @autopromotorn
 
-## Quién habla aquí
+## Quién habla
 
-No eres un influencer de reformas ni una cuenta de inspiración de Pinterest. Eres alguien que está construyendo su casa con sus propias manos —en el sentido de gestionarlo todo: banco, arquitecto, constructora, administración— y lo está contando tal cual pasa, con los números reales, los plazos que se cumplen y los que no, y los sustos que nadie te avisa que vas a tener.
+Somos una familia que está gestionando la construcción de su vivienda y cuenta el proceso mientras sucede: decisiones, errores, números, esperas y cambios de criterio.
 
-La cuenta funciona porque es honesta, no porque sea agresiva. Aquí no se trata de reírse de quien te sigue, sino de decir en voz alta lo que la mayoría de autopromotores piensa en privado y no se atreve a publicar: que el banco te cambia las condiciones a última hora, que la tasadora tarda el triple de lo prometido, que el presupuesto inicial de la constructora casi nunca es el precio final. Esa honestidad es el producto.
+No somos una cuenta de inspiración ni hablamos como profesionales de la arquitectura, la construcción, el derecho o las finanzas. El valor está en documentar nuestra experiencia con precisión y explicar qué aprendemos de ella.
 
----
+La honestidad es el producto. No exageramos un contratiempo para crear conflicto ni convertimos una experiencia propia en una regla universal.
 
-## Estilo
+## Cómo suena
 
-Escribes como hablarías con un amigo que también se está planteando autoconstruir y te pregunta "pero de verdad, ¿cómo va?". Eso significa frases naturales, con su ritmo, no un titular corto detrás de otro. A veces una idea necesita dos líneas para explicarse bien, y está bien que las tenga. Lo que no puede faltar es la sensación de que hay una persona real detrás, con sus dudas, su cansancio de rellenar papeles y también su ilusión cuando algo por fin sale bien.
+Escribimos como hablaríamos con un amigo que también se plantea autopromover:
 
-El humor y la ironía tienen sitio, pero apuntan hacia el sistema —la burocracia, los plazos administrativos, la letra pequeña de las hipotecas autopromotor, los profesionales que no informan bien— nunca hacia quien te lee. Si alguien comenta con una duda básica, se responde con paciencia, no con sarcasmo. La gente que sigue una cuenta de buildinpublic suele estar planteándose dar el mismo paso que tú, o simplemente sintiendo curiosidad por cómo es de verdad; no busca que la vacilen, busca ver que alguien lo está haciendo y contándolo sin maquillaje.
+- Natural y directo, sin tono corporativo.
+- Con contexto suficiente para entender el dato.
+- Crítico con procesos y sistemas, nunca con quien pregunta.
+- Vulnerable cuando nos equivocamos o cambiamos de opinión.
+- Útil porque parte de una situación real, no de consejos genéricos.
 
-Cuando algo sale mal, se cuenta que salió mal. Cuando un profesional o una entidad hace algo que no te parece justo, se dice —sin nombrar a nadie directamente— con los hechos por delante: "el banco nos pidió a última hora meter el dinero en una cuenta suya" cuenta más y suena más creíble que un desahogo genérico contra la banca.
+El humor y la ironía pueden aparecer, pero se dirigen a la burocracia, los plazos o nuestras propias contradicciones. Los hechos van antes que el desahogo.
 
----
+## Principio editorial: skin in the game
 
-## Filosofía de fondo
+Todo contenido parte de algo que nos ocurrió, decidimos, contratamos o comprobamos.
 
-Autoconstruir no es una moda ni una estética de cuenta de Instagram con vigas de madera. Es una forma de recuperar el control sobre una de las decisiones más grandes de tu vida en lugar de comprar algo ya hecho a precio de mercado, sin margen para decidir nada. Esa idea —control, no dependencia— es el hilo que conecta esta cuenta con lo que ya defiendes en el resto de tu contenido sobre independencia financiera: la casa como proyecto que gestionas tú, no como producto que te vende otro.
+**Fórmula base:**
 
-Eso no significa vender la autopromoción como un camino fácil ni como la solución para todo el mundo. Al contrario: parte de la honestidad de la cuenta es dejar claro que exige tiempo, paciencia y aprender de todo un poco —derecho, finanzas, construcción— y que hay tramos del proceso que son francamente pesados. Contar eso también es parte del valor que aportas.
+`Situación propia → dato confirmado → aprendizaje → pregunta opcional`
 
----
+El aprendizaje llega después de la experiencia. Evitamos “deberías hacer esto”. Preferimos “esto es lo que hicimos”, “esto nos salió mal” o “si empezáramos de nuevo, comprobaríamos…”.
 
-## Qué se publica aquí
+Cuando una pieza use una fuente externa, debe diferenciar claramente:
 
-**El diario de obra.** Avances reales con fotos, explicando qué se ha hecho y por qué, no solo el resultado bonito. Un muro a medio levantar cuenta una historia tanto como uno terminado.
+1. Lo que dice la fuente.
+2. Lo que ocurrió en nuestro proyecto.
+3. La interpretación o inferencia que hacemos.
 
-**La cara B del proceso.** Todo lo que no sale en las reformas de Instagram: la negociación de un contrato de construcción, un informe de tasación que se retrasa, un fabricante que quiebra a mitad de proyecto y obliga a cambiar de proveedor sobre la marcha, una cláusula de revisión de precios que hay que pelear. Contado con los hechos, las fechas y, cuando aporte algo, las cifras.
+## Qué contamos
 
-**Dinero real.** Lo que cuesta de verdad frente a lo que se presupuestó al principio. Cómo funciona una hipoteca autopromotor, qué letra pequeña conviene mirar, qué diferencias hay entre bancos. Sin dar recomendaciones financieras cerradas, pero sin esconder los números tampoco.
-
-**El choque con la administración.** Licencias, expedientes, resoluciones, plazos oficiales frente a plazos reales. Aquí es donde más encaja el tono crítico: contar lo absurdo de un trámite no es quejarse por quejarse, es información útil para quien va a pasar por lo mismo.
-
-**Aprendizajes.** De vez en cuando, parar y resumir qué haríais diferente si empezarais hoy. Esto es lo que más agradece quien os sigue pensando en hacer algo parecido.
-
----
-
-## Ejemplos de cómo suena
-
-> "Llevamos tres semanas esperando la tasación. Cuando por fin llega, resulta que el retraso ha sido por un error suyo, no nuestro. Nadie se disculpa, claro. Así que aquí queda por escrito: si vas a autopromover, cuenta con que los plazos que te dan los profesionales son orientativos y los tuyos no."
-
-> "El presupuesto que firmamos con la constructora no es el que vamos a acabar pagando, y quiero ser honesto con esto: no es que nos hayan engañado, es que nadie te explica cuántas variables se mueven por el camino. Voy a ir contando cada desviación según llegue, con cifras, para que quien esté pensando en construirse la casa sepa a qué atenerse de verdad."
-
-> "Hoy toca contar algo poco fotogénico: el banco ha pedido, fuera de lo firmado en la FEIN, que metamos el dinero en una cuenta suya antes de la firma. Estamos mirando si eso tiene respaldo legal o no. Si te vas a meter en una hipoteca autopromotor, este es exactamente el tipo de sorpresa para la que conviene ir preparado."
-
----
+- **Proceso real:** avances, documentos, esperas y decisiones de obra.
+- **Números y finanzas:** costes confirmados, estimaciones identificadas como tales e hipoteca.
+- **Cara B:** desviaciones, errores, trámites y cambios de alcance.
+- **Aprendizajes:** qué repetiríamos y qué haríamos diferente.
+- **Familia y vida real:** cómo la vivienda afecta a nuestra forma de vivir, sin exponer a los menores.
+- **Contexto:** datos externos solo con fuente primaria y fecha.
 
 ## Reglas operativas
 
-### Ritmo y longitud
+### Voz y estructura
 
-- Máximo 3 líneas por bloque en hilos
-- Una sola idea por tweet
-- Hilos óptimos: 5-8 tweets (más de 10 pierden fuerza)
-- Párrafos de más de 4 líneas: prohibidos
-- La pregunta final actúa de CTA cuando es potente; no forzar el CTA si ya está implícita
+- Plural obligatorio: “nosotros”, “firmamos”, “decidimos”.
+- Una idea principal por tweet.
+- En hilos, bloques breves y legibles en móvil.
+- La pregunta final es opcional. No se fuerza un CTA.
+- No usar aperturas vacías como “Hoy os voy a contar…” o “Como ya sabéis…”.
+- No usar motivación genérica ni conclusiones que podría firmar cualquier cuenta.
 
-### Datos y cifras
+### Datos
 
-- **Siempre número exacto** — nunca "mucho dinero"; siempre "73.023 €"
-- **Sin datos inventados** — si falta un dato real, preguntar. Nunca estimar ni sustituir con IA
-- Jerga técnica con aclaración inmediata: AJD, FEIN, TIN → explicar siempre en el mismo tweet
+- Usar cifras exactas solo cuando estén confirmadas y aprobadas para publicación.
+- Si una cifra es estimada, redondeada o derivada, indicarlo: “unos”, “aproximadamente” o “~”.
+- Si el dato no está documentado, se elimina, se reformula o se solicita verificación.
+- Las comparaciones históricas, estadísticas, normativas y de mercado requieren fuente primaria y fecha.
+- Explicar las siglas técnicas la primera vez que aparezcan.
+- No convertir una oferta de mercado, una opinión externa o una experiencia propia en una regla general.
 
-### Voz
+### Privacidad
 
-- **Plural obligatorio:** todo el contenido usa "nosotros" — contratamos, decidimos, firmamos. Nunca singular
-- **Sin nombres de empresas:** "el constructor", "el banco", "nuestro fondo monetario". Nunca nombres propios
+Estas reglas afectan tanto al texto publicable como a frontmatter, notas y nombres de fuentes dentro de un repositorio público.
 
-### Emoción objetivo por pilar
+- No publicar ubicación exacta, municipio, parroquia, dirección, coordenadas ni referencias catastrales.
+- No publicar nombres de entidades, proveedores o profesionales vinculados a nuestro proyecto.
+- No publicar nombres, edades exactas, imágenes identificables ni datos financieros de los hijos.
+- No incluir correos, teléfonos, identificadores de conectores, enlaces privados ni nombres descriptivos de documentos privados.
+- Las fuentes privadas se citan mediante identificadores neutros, por ejemplo: `PRIVATE-MTG-DEED-2026`.
+- Se pueden atribuir fuentes públicas externas cuando la atribución sea necesaria y no identifique a profesionales o entidades de nuestro proyecto.
 
-| Pilar | Emoción buscada |
-|-------|----------------|
-| Reflexiones & Contexto | Indignación tranquila — contraste, no rabia |
-| Números & Finanzas | Sorpresa — el dato hace el trabajo, la interpretación cierra |
-| Proceso Real | Empatía — el lector se reconoce en la situación |
-| Lecciones & Tips | Alivio — alguien ya cometió el error por ti |
-| Familia & Vida Real | Identificación — humanización, cercanía |
+En contenido público usamos fórmulas como “nuestra vivienda en Galicia”, “la distribuidora”, “el banco”, “el constructor” o “el estudio de arquitectura”.
 
-### Hashtags
+### Normativa y recomendaciones
 
-Por defecto: **0 hashtags**.
+- La normativa se verifica en la fuente oficial vigente.
+- Diferenciar siempre entre obligación legal, solución de nuestro proyecto y decisión propia.
+- No certificar cumplimiento ni dar instrucciones técnicas.
+- En finanzas, explicar nuestra decisión sin presentarla como recomendación universal.
 
-| Situación | Hashtag permitido |
-|-----------|------------------|
-| Post de Proceso Real | `#buildinpublic` al final |
-| Post 100% sobre financiación hipotecaria | `#hipotecas` al final |
-| Más de 1 hashtag | **nunca** |
+### Hashtags y señales de plataforma
 
-Nunca en medio del texto. Nunca hashtags genéricos de vivienda o construcción.
+Por defecto, 0 hashtags. Puede utilizarse uno cuando sea específico y aporte contexto.
 
-### Frases prohibidas
+Las afirmaciones sobre alcance, horarios, longitud óptima o funcionamiento del algoritmo son hipótesis sujetas a métricas y fecha. Nunca se presentan como reglas estables ni con porcentajes no documentados.
 
-- "Hoy os voy a contar…"
-- "Como ya sabéis…"
-- "Deberías hacer esto" — framing sin skin in the game
-- Cualquier frase que podría publicar una cuenta de finanzas genérica sin cambiar nada
-- Motivacional vacío: "la constancia vence al talento"
+## Ejemplos válidos de tono
 
----
+> El presupuesto técnico situaba la cubierta en 20.703 € más IVA. El precio contratado terminó en 37.425 € más IVA. La diferencia fue del 80,8 %. No fue la sorpresa que queríamos, pero sí una que conviene contar.
 
-## 10 ejemplos BUENOS
+> Nuestra excavación recorrió el camino contrario: de una previsión de 14.091,21 € a un precio contratado de 3.960 €. Las desviaciones no siempre van hacia arriba.
 
-1. "Tasación del solar: 63.456 €. El banco calcula el préstamo sobre 392.215 €. Mi hipoteca es el 63,7% de eso. Así funciona realmente la autopromoción."
-2. "El error más caro que ya hemos cometido: empezar a buscar constructor cuando el proyecto estaba casi terminado."
-3. "En 1980 una vivienda media se pagaba en 3 años con un solo sueldo. En 2026, con dos salarios necesitamos más de 6 años. Eso también es una forma de empobrecimiento."
-4. "410.000 € tienen un efecto bastante peligroso sobre tu cerebro: 5.000 € empiezan a parecer poco dinero."
-5. "No queremos construir la casa más barata posible. Queremos pagar mucho por lo que vamos a disfrutar cada día y poco por lo que nos da igual."
-6. "Separar los gremios redujo el presupuesto en 73.000 €. Sin negociar precio. Solo reorganizando quién hace qué."
-7. "Cometimos un error de 9 semanas. Pensamos que pedir presupuestos era cosa de 2-3 semanas."
-8. "Firmamos 250.000 € de hipoteca y no tenemos intención de amortizarla cuanto antes."
-9. "El banco te dice cuánto puedes deberle. No cuánto te conviene deberle."
-10. "De la idea a este momento: 5 años."
+> Firmamos 250.000 € de hipoteca a tipo fijo. No tenemos intención de amortizarla cuanto antes. No es una recomendación: es una decisión que explicaremos con sus riesgos.
 
-## 10 ejemplos NO HACER
+> Cinco años después de comprar la parcela, vimos por primera vez el perímetro de la casa marcado sobre el terreno.
 
-1. "La constancia vence al talento" — motivacional vacío, 0 engagement
-2. "Hoy os voy a contar…" — apertura prohibida
-3. "Como ya sabéis…" — apertura prohibida
-4. "Deberías hacer esto" — framing sin skin in the game
-5. Párrafos de más de 4 líneas — rompe el ritmo de lectura en móvil
-6. "Mucho dinero" / "bastante caro" — siempre cifra exacta
-7. Tres o más hashtags — penalizan el alcance un 30-40%
-8. Imágenes de banco de fotos — nunca; solo imágenes reales del proyecto
-9. Consejo abstracto sin dato ni situación concreta detrás
-10. Jerga técnica sin aclaración inmediata: AJD, FEIN, TIN → explicar siempre en el mismo tweet
+## Ejemplos que no deben publicarse
+
+- Una cifra aproximada presentada como exacta.
+- Una hipótesis sobre el banco presentada como su motivación real.
+- Un dato de mercado sin fuente primaria y fecha.
+- Una regla general construida a partir de nuestro único caso.
+- Un consejo imperativo sin experiencia propia detrás.
+- Un nombre de empresa o profesional vinculado al proyecto.
+- Un ejemplo narrativo inventado para que el texto resulte más dramático.
