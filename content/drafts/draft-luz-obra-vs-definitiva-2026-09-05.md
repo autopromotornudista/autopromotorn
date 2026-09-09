@@ -9,9 +9,9 @@ verified_sources:
   - Experiencia propia: acometida provisional solicitada, tasas pagadas (193,42€ a UFD), pendiente de conexión
   - Drive: Estimacion Gastos Casa.xlsx (actualizado 2026-09-05)
   - Agente técnico: RD 842/2002 (REBT) + Decreto 279/2009 Xunta (IGEM) + normativa UFD
-critic_status: PASS (v1)
-critic_date: 2026-09-05
-critic_notes: "14/14. Hook ✓ — 'hay dos conexiones, no una' — disruptivo y concreto. Skin in the game ✓ posts 1-3 (experiencia propia: solicitada, tasas pagadas, obra iniciada, aún sin conexión). Post 4 correctamente framed como framework futuro, no como experiencia vivida aún. Credibilidad ✓ — normativa verificada por agente técnico (RD 842/2002, Decreto 279/2009 Xunta). AI slop ✓. Duplicación ✓. Value HIGH (UTILITY+DATA): desmonta confusión frecuente (dos trámites, no uno), secuencia accionable, dato sorpresa 'la provisional no se cancela sola'. Intransferible: anclado en situación real activa de la obra."
+critic_status: REVISE
+critic_date: 2026-09-09
+critic_notes: "ERROR FACTUAL — el draft asume que se solicitó el suministro provisional de obras (tweet 2-3). El propietario confirma el 09/09/2026 que solicitaron directamente la luz definitiva y están esperando a que conecten. El marco educativo de 'dos conexiones' puede ser válido como contexto general, pero el skin in the game propio (tweet 3) es incorrecto. Reescribir tweet 3 y revisar si el marco general aplica a su caso real antes de publicar."
 generated: 2026-09-05
 status: draft
 slot_suggested: "Jueves · 08-10h"

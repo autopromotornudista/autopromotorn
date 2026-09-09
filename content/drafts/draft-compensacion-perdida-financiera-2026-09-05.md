@@ -9,63 +9,60 @@ needs_verification: false
 verified_sources:
   - Drive: COPIA ESCRITURA HIPOTECA UNICAJA 1957-2026.pdf (cláusula SEXTA — Comisiones)
   - knowledge/MORTGAGE.md (TIN 2,05%, mercado 2,80%)
-critic_status: REVISE→PASS (v2)
+critic_status: REVISE→PASS (v3)
 generated: 2026-09-05
 status: draft
 ---
 
 # La compensación por pérdida financiera — el 2% que puede ser 0€
 
-## HILO — 5 posts
+## HILO — 5 posts (v3 — tono ajustado + T5 corregido)
 
 **1/**
-Si tienes hipoteca fija, necesitas saber qué es la compensación por pérdida financiera.
+Si tienes hipoteca fija, probablemente pienses que cancelarla anticipadamente te cuesta un 2%.
 
-Está en tu escritura. Puede cobrarte el 2% del capital si cancelas. O cero.
+Ese porcentaje no siempre se cobra. Es un techo legal, no un precio fijo.
 
-Y casi nadie explica de qué depende.
+Depende de si el banco sufre una pérdida financiera real cuando te vas. A veces esa pérdida es 0 €.
 
 ---
 
 **2/**
-El límite que todo el mundo conoce: 2% del capital en los primeros 10 años si cancelas del todo.
+Lo que dice la ley: durante los primeros 10 años, el banco puede cobrar como máximo el menor de dos importes:
 
-Pero ese 2% es un techo, no un precio fijo.
+• La pérdida financiera calculada.
+• El 2% del capital amortizado anticipadamente.
 
-Lo que el banco cobra realmente es su pérdida financiera real.
+A partir del año 10, ese techo baja al 1,5%.
 
-¿Y cómo se calcula esa pérdida?
+El banco no elige cuánto cobrar. Cobra lo que pierde, con ese límite.
 
 ---
 
 **3/**
-Por diferencia entre el capital que te queda pendiente y el valor de mercado de tu préstamo.
+En julio de 2026 firmamos al 2,05%. Hoy los bancos ofrecen hipotecas fijas por encima de eso.
 
-Si los tipos suben: nadie pagaría lo mismo por una hipoteca al 2,05% cuando el mercado está al 2,80%. Tu préstamo vale menos. El banco no pierde nada si te vas.
+Si canceláramos ahora, el banco recuperaría ese dinero y lo prestaría más caro que a nosotros.
 
-Si los tipos bajan: tu hipoteca al 2,05% se convierte en un chollo. El banco sí pierde si la dejas ir. Y cobra.
+No habría pérdida financiera real. Y sin pérdida, no hay compensación.
 
 ---
 
 **4/**
-Nosotros firmamos al 2,05%. El mercado estaba al 2,80%.
+Eso no significa que nuestra compensación sea automáticamente 0 €.
 
-Hoy los tipos siguen por encima de lo que nosotros pagamos.
+El cálculo legal usa el IRS correspondiente y el diferencial pactado en escritura. Solo el banco puede hacer esa simulación.
 
-Si quisiéramos cancelar ahora, el banco probablemente no tendría pérdida financiera real que reclamarnos.
-
-La cláusula del 2% existe. Pero en este entorno, funciona a nuestro favor.
+Pero el entorno actual de tipos apunta en una dirección concreta: a nuestro favor.
 
 ---
 
 **5/**
-La trampa de la compensación por pérdida financiera no es que sea cara.
+La trampa de esta cláusula no es que sea cara.
 
-Es que nadie la explica antes de que firmes.
+Es que nadie te la explica antes de firmar: si cancelas del todo, el tope es el 2% (el 1,5% pasado el año 10). Si amortizas parcialmente, el tope baja al 0,25%. Y en ambos casos, solo si hay pérdida financiera real.
 
-Te hablan del 2% como si fuera fijo. No lo es.
-
-Depende del entorno de tipos en el momento en que quieras salir.
+Antes de actuar, pide la simulación por escrito. #hipotecas
 
 ¿La revisasteis en vuestra escritura antes de firmar?
 
@@ -76,5 +73,6 @@ Depende del entorno de tipos en el momento en que quieras salir.
 - No mencionar nombre del banco
 - El concepto "valor de mercado del préstamo" no requiere número exacto — el post funciona con la lógica, no con la cifra
 - No afirmar que "nuestra comisión hoy sería 0€" — es probable pero no calculable sin el tipo de referencia del banco; usar "puede ser mínima o cero"
+- T5 verificado contra Cláusula SEXTA escritura: cancelación total → 2%/1,5%; amortización parcial → 0,25%; ambas solo si hay pérdida financiera real
 - Complementa al draft anterior (trampa-hipoteca-fija) sin solaparse: ese post habla del coste de cambiar de banco; este explica cómo funciona el mecanismo real
 - Programar: **miércoles o jueves 08-10h**, semana distinta al anterior
