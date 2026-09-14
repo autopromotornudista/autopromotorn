@@ -19,7 +19,21 @@
       "WebFetch(domain:codigotecnico.org)",
       "WebFetch(domain:www.boe.es)",
       "WebFetch(domain:boe.es)",
-      "mcp__buffer__list_ideas"
+      "mcp__buffer__list_ideas",
+      "mcp__claude_ai_Google_Drive__list_recent_files",
+      "Bash(crontab -l)",
+      "Bash(systemctl --user daemon-reload)",
+      "Bash(systemctl --user enable --now autopromotorn-runner.timer)",
+      "Bash(systemctl --user status autopromotorn-runner.timer --no-pager)",
+      "Bash(bash scripts/background_runner.sh)",
+      "Bash(echo \"=== EXIT CODE: $? ===\")",
+      "Bash(bash -x scripts/background_runner.sh)",
+      "Skill(schedule)",
+      "Skill(schedule:*)"
+    ],
+    "additionalDirectories": [
+      "/home/pineapple/.config/systemd/user",
+      "/home/pineapple/proyectos/autopromotorn/logs"
     ]
   }
 }

@@ -121,6 +121,36 @@ Knowledge nunca debe utilizarse para reconstruir información privada que se ha 
 
 ---
 
+## Política de aprobación vinculada a versión (MVP2)
+
+A partir del MVP2, `/approve` calcula un hash SHA256 del cuerpo del post (el texto después del frontmatter YAML) en el momento exacto de la aprobación humana.
+
+Este hash (`content_hash` en el frontmatter) es un sello criptográfico del texto que el propietario leyó y aprobó.
+
+`/schedule --confirm` recalcula el hash antes de llamar a Buffer. Si el texto cambió después de `/approve`, el envío queda bloqueado automáticamente.
+
+Si se necesita modificar el texto después de aprobar: ejecutar `/approve [content_id]` nuevamente para re-aprobar la nueva versión.
+
+**El hash vive en el frontmatter del archivo, no en un sistema externo.** El archivo ES el estado.
+
+---
+
+## Política de replies (MVP2)
+
+La búsqueda de oportunidades y la redacción de propuestas pueden automatizarse.
+Cada reply requiere aprobación humana antes de publicarse.
+
+El flujo es:
+1. `/reply [url]` → guarda automáticamente las propuestas en `content/replies/pending/`
+2. Aparecen en `/inbox` junto con los posts
+3. `/approve-reply [reply_id]` → el propietario elige la propuesta
+4. El propietario copia el texto y publica manualmente en X
+5. `/sent-reply [reply_id]` → registra el envío
+
+**Nunca automatizar el envío de replies.** Esta regla es absoluta incluso si X API estuviera disponible.
+
+---
+
 ## Información volátil sobre el sistema de X
 
 La siguiente información debe tratarse siempre como **hipótesis**, no como knowledge estable:

@@ -177,3 +177,8 @@ desktop.ini
 *~
 *.tmp
 *.log
+
+# ── LOGS DE SISTEMA EDITORIAL ─────────────────────────────
+logs/*.log
+logs/*.json
+!logs/.gitkeep

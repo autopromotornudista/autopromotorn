@@ -22,6 +22,7 @@ Solo contiene fechas confirmadas. Las fechas pendientes no se inventan.
 | Abril 2026 | Licencia de obra concedida |
 | 27 julio 2026 | Hipoteca firmada (Unicaja) |
 | 26 agosto 2026 | Replanteo de la edificación. Acta de comienzo de obra firmada. |
+| 12 septiembre 2026 | Excavación realizada. Pendiente visita arquitecto para verificar cotas antes de hormigonar. |
 
 ---
 

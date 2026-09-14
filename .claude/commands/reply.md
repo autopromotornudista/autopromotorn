@@ -93,7 +93,65 @@ Para cada propuesta señalar:
 
 ---
 
-## Formato del informe
+## Paso 6.5 — Persistir propuestas en content/replies/pending/
+
+**Generar reply_id:**
+1. Fecha actual: YYYYMMDD
+2. Contar cuántos archivos en `content/replies/pending/`, `content/replies/approved/` y `content/replies/sent/` tienen `reply_date: [fecha_actual]` en su frontmatter
+3. NNN = ese conteo + 1, con padding de 3 dígitos: 001, 002...
+4. `reply_id = REPLY-[YYYYMMDD]-[NNN]`
+
+**Crear directorio si no existe:** `content/replies/pending/`
+
+**Nombre del archivo:** `content/replies/pending/reply-[handle]-[reply_id].md`
+Ejemplo: `content/replies/pending/reply-hipotelab-REPLY-20260908-001.md`
+
+**Frontmatter:**
+```yaml
+---
+reply_id: REPLY-YYYYMMDD-NNN
+reply_date: YYYY-MM-DD
+created_date: YYYY-MM-DDTHH:MM:SS
+original_url: "[URL del post o 'texto-pegado']"
+original_author: "@[handle]"
+original_text_excerpt: "[primeros 120 chars del post original]"
+status: pending
+recommended: [1|2|3]
+x_api_available: false
+---
+```
+
+**Cuerpo del archivo** (después del frontmatter):
+```
+## Propuesta 1 — [tipo: experiencia | dato | matiz | pregunta]
+[texto completo del reply]
+Riesgo: [bajo|medio|alto] — [razón breve]
+
+## Propuesta 2 — [tipo]
+[texto completo del reply]
+Riesgo: [bajo|medio|alto] — [razón breve]
+
+## Propuesta 3 — [tipo]
+[texto completo del reply]
+Riesgo: [bajo|medio|alto] — [razón breve]
+
+## Recomendación: Propuesta [N]
+[razón en 1 frase]
+```
+
+**Write atómico:**
+1. Escribir a `content/replies/pending/[nombre].md.tmp`
+2. Verificar que el `.tmp` contiene el `reply_id` correcto en el frontmatter
+3. Renombrar: `[nombre].md.tmp` → `[nombre].md`
+
+**Audit log** (crear `logs/` si no existe):
+```
+[ISO8601] REPLY created reply_id=[id] author=@[handle] url=[url]
+```
+
+---
+
+## Formato del informe final
 
 ```
 ══════════════════════════════════════════════
@@ -126,7 +184,14 @@ Riesgo: bajo | medio | alto — [razón breve]
 RECOMENDACIÓN: Propuesta [N]
 Razón: [1 frase]
 
-⚠️ El propietario elige, edita si lo desea, y publica manualmente en X.
-   El Reply Agent no publica nunca.
+──────────────────────────────────────────────
+GUARDADO: content/replies/pending/reply-[handle]-[reply_id].md
+reply_id: REPLY-YYYYMMDD-NNN
+
+Para aprobar: /approve-reply [reply_id]
+(o verlo en /inbox junto con los posts pendientes)
+
+⚠️ El propietario elige y publica manualmente en X.
+   El Reply Agent no publica nunca. X API no está disponible.
 ══════════════════════════════════════════════
 ```

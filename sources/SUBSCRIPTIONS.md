@@ -125,8 +125,8 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
   frequency: daily (cadencia muy alta — publica casi cada día)
   priority: high
   active: true
-  last_processed: 2026-09-05
-  ideas_generated: 9
+  last_processed: 2026-09-09
+  ideas_generated: 13
   ideas_published: 0
   ideas_high_performance: 0
   yield_score: null
@@ -153,6 +153,14 @@ Registro maestro de fuentes externas autorizadas para el Content Harvester.
         - sources/youtube/2026-09-05-Bj-qUmEtZ54.md  # Cae el precio de la vivienda en Madrid (Short)
       ideas_saved: [IDEA-VID-007, IDEA-VID-008, IDEA-VID-009, IDEA-VID-010, IDEA-VID-011, IDEA-VID-012]
       ideas_discarded: []
+
+      - date: 2026-09-09
+        videos_processed: 2
+        transcripts:
+          - sources/youtube/2026-09-09-la-vivienda-frena-en-seco-las-hipotecas-se-dispara.md
+          - sources/youtube/2026-09-09-ex-banquera-revela-como-conseguir-la-mejor-hipotec.md
+        ideas_saved: [IDEA-VID-013, IDEA-VID-014, IDEA-VID-015, IDEA-VID-016]
+        ideas_discarded: [hipotecas fijas caras genérico, tasa esfuerzo 35% genérico]
 
 - id: SRC-004
   name: SoloArquitectura — Subforo Promotores y Autopromotores

@@ -34,6 +34,16 @@ Solo lectura. No mueve archivos. No llama a Buffer.
    - `mcp__buffer__get_account` → organizationId
    - `mcp__buffer__list_posts` → posts pending en la cola
 
+6. Reconciliación entre content/scheduled/ y Buffer:
+   Para cada archivo en `content/scheduled/`:
+   a. Leer `buffer_post_id` del frontmatter
+   b. Si `buffer_post_id` es null, vacío o `~`: marcar como "sin buffer_post_id"
+   c. Buscar ese `buffer_post_id` en la lista de posts de Buffer
+   d. Si existe en Buffer: `[OK]`
+   e. Si no existe en Buffer: `[WARN — no encontrado en Buffer · verificar manualmente]`
+   
+   Si Buffer no está disponible: registrar "Buffer no disponible — reconciliación omitida"
+
 ---
 
 ## Formato del informe
@@ -68,6 +78,13 @@ PROGRAMADO EN BUFFER ([N])
 PUBLICADO — últimas 2 semanas ([N])
   [fecha]  [resumen del post]
   ...
+
+──────────────────────────────────────────────────
+RECONCILIACIÓN BUFFER
+  [OK]   [content_id] — buffer_post_id:[id] — sincronizado
+  [WARN] [content_id] — no encontrado en Buffer · revisar manualmente
+  [WARN] [content_id] — sin buffer_post_id en frontmatter
+  [Si Buffer no disponible: "Buffer no disponible — reconciliación omitida"]
 
 ══════════════════════════════════════════════════
 RESUMEN: [N] ideas · [N] drafts · [N] ready · [N] en buffer

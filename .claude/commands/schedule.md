@@ -242,15 +242,39 @@ Se activa SOLO con: `/schedule READY-X --confirm`
 
 ### Paso 7 — Verificar consistencia pre-confirmación
 
-Antes de llamar a Buffer, re-verificar:
+Antes de llamar a Buffer, re-verificar en este orden:
 
 1. El archivo `content/ready/[READY-X].md` sigue en `content/ready/`
 2. `critic_status` sigue siendo PASS
 3. `value_level` sigue siendo HIGH
-4. El texto del post no ha cambiado desde el preview
+4. **HASH BINDING** — verificación criptográfica de que el texto no ha cambiado desde /approve:
+   - Leer `content_hash` del frontmatter (campo `content_hash: sha256:...`)
+   - Si `content_hash` es `~` o está ausente: el archivo no pasó por /approve correctamente → BLOQUEAR
+   - Recalcular SHA256 del cuerpo del archivo usando el mismo método que /approve:
+     * Identificar la segunda línea "---" (fin del frontmatter)
+     * Extraer TODO el texto desde esa línea en adelante
+     * Calcular SHA256 en UTF-8 con Bash: `printf '%s' "[cuerpo]" | sha256sum`
+   - Comparar hash recalculado con `content_hash` del frontmatter
+   - Si **difieren**:
+     ```
+     ⛔ CONFIRMACIÓN CANCELADA — HASH MISMATCH
+     El texto del post ha sido modificado después de la aprobación humana.
+     
+     Hash aprobado:      [content_hash del frontmatter]
+     Hash actual:        sha256:[hash recalculado]
+     
+     El contenido que el propietario aprobó ya no coincide con el archivo.
+     
+     Opciones:
+     A. Restaurar el texto original y ejecutar /schedule [content_id] --confirm de nuevo
+     B. Si el cambio fue intencional: /approve [content_id] nuevamente para re-aprobar
+
+     create_post NO será llamado hasta resolver esta discrepancia.
+     ```
+     Detenerse. NO continuar al Paso 8.
 5. La fecha/hora propuesta en el preview sigue disponible en Buffer (re-leer `list_posts`)
 
-Si algo cambió:
+Si algo de los puntos 1-3 o 5 cambió:
 ```
 ⛔ CONFIRMACIÓN CANCELADA
 El estado ha cambiado desde el último preview:
@@ -283,6 +307,34 @@ mcp__buffer__create_post
 
 Para hilo: crear el primer tweet, usar su `id` como `replyToPostId` para el siguiente, en orden.
 
+**Manejo de fallo parcial en hilos:**
+
+Si `create_post` tiene éxito en los tweets 1...(N-1) pero falla en el tweet N:
+```
+⚠ HILO PARCIALMENTE ENVIADO A BUFFER
+Tweets enviados:        [N-1]/[M]
+Último buffer_id:       [id del último tweet enviado]
+Tweet que falló:        [N]/[M]
+Error:                  [mensaje de error de Buffer]
+
+ACCIÓN REQUERIDA (manual):
+1. Ir a Buffer y eliminar los [N-1] tweets del hilo incompleto
+2. Ejecutar /schedule [content_id] --confirm para reintentar el hilo completo
+
+NO se reintentará automáticamente — riesgo de duplicar tweets ya enviados.
+NO se actualizará el frontmatter hasta que el hilo esté completo.
+NO se moverá el archivo a content/scheduled/ hasta que el hilo esté completo.
+```
+
+Registrar en audit log:
+```
+[ISO8601] SCHEDULE-PARTIAL content_id=[id] sent=[N-1]/[M] last_buffer_id=[id] error=[msg]
+```
+
+Detenerse. NO continuar al Paso 9.
+
+Si todos los tweets del hilo se crean correctamente: continuar al Paso 9.
+
 ---
 
 ### Paso 9 — Registrar y mover
@@ -297,6 +349,11 @@ scheduled_date: YYYY-MM-DD
 
 Mover el archivo:
 `content/ready/[ready_id].md` → `content/scheduled/scheduled-[slug]-[fecha].md`
+
+Audit log (crear `logs/` si no existe):
+```
+[ISO8601] SCHEDULE-CONFIRM content_id=[id] buffer_post_id=[buffer_id] scheduled_at=[ISO8601_utc] file=content/scheduled/scheduled-[slug]-[fecha].md
+```
 
 ---
 

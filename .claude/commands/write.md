@@ -132,9 +132,18 @@ needs_verification:
 Nombre del archivo: `content/drafts/draft-[slug]-YYYY-MM-DD.md`
 El slug: 2-4 palabras del tema principal, en minúsculas con guiones.
 
-Frontmatter completo:
+**Generar content_id antes de guardar:**
+1. Fecha actual: YYYYMMDD
+2. Contar cuántos archivos en `content/drafts/`, `content/ready/`, `content/scheduled/` y `content/published/` tienen `draft_date: [fecha_actual]` en su frontmatter
+3. NNN = ese conteo + 1, con padding de 3 dígitos: 001, 002, 003...
+4. `content_id = DRAFT-[YYYYMMDD]-[NNN]`
+
+El `content_id` es inmutable — no cambia al mover el archivo entre directorios del pipeline.
+
+Frontmatter completo (content_id es el PRIMER campo):
 ```yaml
 ---
+content_id: DRAFT-YYYYMMDD-NNN
 idea_id: IDEA-[TIPO]-NNN
 draft_date: YYYY-MM-DD
 pillar: [pilar]
@@ -149,8 +158,12 @@ facts_used: []
 derived_claims: []
 needs_verification: []
 critic_status: pending
+content_hash: ~
+content_hash_date: ~
 ---
 ```
+
+`content_hash` se inicializa como `~` (null). Se calcula y rellena en `/approve`.
 
 ---
 
@@ -159,8 +172,9 @@ critic_status: pending
 Mostrar:
 ```
 ══════════════════════════════════════
-WRITER REPORT — [draft_id]
+WRITER REPORT — [content_id]
 ══════════════════════════════════════
+content_id:     DRAFT-YYYYMMDD-NNN
 Idea origen:    IDEA-[TIPO]-NNN
 Formato:        [A|B|C|D]
 Pilar:          [pilar]
