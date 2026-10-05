@@ -170,7 +170,10 @@ desktop.ini
 
 
 # ── EDITORES ──────────────────────────────────────────────
-.vscode/
+# Se versiona la configuración compartida de VS Code; el resto es local.
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -182,3 +185,14 @@ desktop.ini
 logs/*.log
 logs/*.json
 !logs/.gitkeep
+
+# ── INSTAGRAM: SALIDAS GENERADAS Y EXPORTS CRUDOS ─────────
+content/instagram/**/output/*.png
+content/instagram/**/output/*.jpg
+content/instagram/**/buffer_payload.json
+metrics/instagram/raw/
+
+
+# ── AGENTES: CONFIGURACIÓN LOCAL (no compartida) ──────────
+.claude/settings.local.json
+.codex/

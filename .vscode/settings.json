@@ -1,0 +1,18 @@
+{
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "search.exclude": {
+        "logs": true,
+        "content/instagram/**/output": true
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    }
+}
